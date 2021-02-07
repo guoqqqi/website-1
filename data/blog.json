@@ -1,6 +1,12 @@
 {
   "zh-CN": [
     {
+      "title": "过年不加班！打通 API 网关，复杂流量轻松管！",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
+      "date": "2021-02-07",
+      "path": "/zh/blog/connect-to-api-gateways-for-easy-management-of-complex-traffic"
+    },
+    {
       "title": "Apache APISIX 助力企业数字化转型",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2021-02-04",
@@ -62,6 +68,12 @@
     }
   ],
   "en-US": [
+    {
+      "title": "Connect to API gateways for easy management of complex traffic",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
+      "date": "2021-02-07",
+      "path": "/en/blog/connect-to-api-gateways-for-easy-management-of-complex-traffic"
+    },
     {
       "title": "Apache APISIX helps enterprises transform digitally",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
