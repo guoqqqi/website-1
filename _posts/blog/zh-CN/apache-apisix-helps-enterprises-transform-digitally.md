@@ -136,7 +136,7 @@ APISIX Ingress Controller 除了覆盖 NGINX Ingress Controller 已有的能力�
 
 下图是后端服务架构演变史，APISIX 助力企业完成数字化转型，统一技术栈，降低企业开发、维护成本。开源，不锁定企业用户，建立公开、透明的 IT 市场，让企业用户专注于业务需求自身。
 
-![11.png](https://static.apiseven.com/logo/20210203/11.png)
+![11.png](https://static.apiseven.com/202102/11.png)
 
 ## 写在最后
 
