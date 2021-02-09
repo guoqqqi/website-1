@@ -1,5 +1,5 @@
 ---
-title: "打通 API 网关，复杂流量轻松管！"
+title: "Amazon EKS 和 APISIX ingress controller 如何配合使用来管理复杂流量"
 date: 2021-02-07
 ---  
 

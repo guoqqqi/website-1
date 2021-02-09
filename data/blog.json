@@ -1,10 +1,10 @@
 {
   "zh-CN": [
     {
-      "title": "打通 API 网关，复杂流量轻松管！",
+      "title": "Amazon EKS 和 APISIX ingress controller 如何配合使用来管理复杂流量",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2021-02-07",
-      "path": "/zh/blog/connect-to-api-gateways-for-easy-management-of-complex-traffic"
+      "path": "/zh/blog/how-Amazon-EKS-and-APISIX-ingress-controller-work-together-to-manage-complex-traffic"
     },
     {
       "title": "使用 Cypress 让产品持续稳定交付",
@@ -74,12 +74,6 @@
     }
   ],
   "en-US": [
-    {
-      "title": "Connect to API gateways for easy management of complex traffic",
-      "cover": "https://apache.org/logos/res/apisix/apisix.png",
-      "date": "2021-02-07",
-      "path": "/en/blog/connect-to-api-gateways-for-easy-management-of-complex-traffic"
-    },
     {
       "title": "Stable Product Delivery with Cypress",
       "cover": "https://static.apiseven.com/logo/cypress.png",
