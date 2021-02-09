@@ -17,7 +17,7 @@ Kubernetes 是一个开源系统，用于自动化容器化应用程序的部署
 
 Ingress APISIX 可以将 Apache APISIX 作为 Kubernetes 的入口控制器使用，从而为 Kubernetes 引入 Apache APISIX 的各项优秀功能。借助妥善设计的 Controller 组件的驱动，可以帮助用户满足复杂的流量管理需求。
 
-![apisix-ingress-controller技术架构]()
+![apisix-ingress-controller技术架构](https://static.apiseven.com/202102/WechatIMG3731.jpeg)
 
 ## 如何在 Amazon Elastic Kubernetes Service 上配置和运行 Ingress APISIX。
 
