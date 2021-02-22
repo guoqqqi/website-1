@@ -15,22 +15,6 @@ date: 2020-10-17 15:03:00
 3. Good English literacy skills;
 4. Contributors to open source projects preferred.
 
-### Additional Info
-
-Salaries that are above the industry average.
-
-A technical atmosphere with a top engineer culture, where engineers are Apache committers and PMCs.
-
-Normal domestic five-percent insurance and pension benefits.
-
-Paid annual vacation.
-
-A work environment where career and life can be balanced.
-
-Age is just a number. Whether you have just graduated from college or already have a family, we are here only for what you can do.
-
-We're a distributed company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack, Google Docs, and Tencent Meetings.
-
 ### Contact
 
 [wenming@api7.ai](mailto:wenming@api7.ai)
