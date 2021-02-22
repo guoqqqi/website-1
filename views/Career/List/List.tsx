@@ -28,6 +28,30 @@ type Props = {
 const CareerList: NextPage<Props, any> = ({ t }) => {
   const list = [
     {
+      title: t("career-card-title9"),
+      description: t("career-card-desc9"),
+      href: "/careers/customer-success-architect",
+      type: t("career-card-name2")
+    },
+    {
+      title: t("career-card-title8"),
+      description: t("career-card-desc8"),
+      href: "/careers/technical-writer",
+      type: t("career-card-name2")
+    },
+    {
+      title: t("career-card-title7"),
+      description: t("career-card-desc7"),
+      href: "/careers/head-of-developer-relations-and-ecology",
+      type: t("career-card-name2")
+    },
+    {
+      title: t("career-card-title6"),
+      description: t("career-card-desc6"),
+      href: "/careers/server-development-engineer",
+      type: t("career-card-name2")
+    },
+    {
       title: t("career-card-title5"),
       description: t("career-card-desc5"),
       href: "/careers/head-of-growth",
