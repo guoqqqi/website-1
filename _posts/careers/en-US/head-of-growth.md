@@ -16,7 +16,3 @@ date: 2020-11-17 21:16:00
 3. More than 3 years of toB growth experience, international experience is preferred;
 4. Fluent oral English, experience in overseas media and consulting companies is preferred;
 5. Have participated in open source community is preferred.
-
-### Contact
-
-[wenming@api7.ai](mailto:wenming@api7.ai)

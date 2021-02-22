@@ -137,6 +137,20 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                       plugins={[gfm]}
                       renderers={{ code: CodeBlock }}
                     />
+                    <h3>附加信息</h3>
+                    <ol>
+                      <li>薪酬超过行业的平均水平</li>
+                      <li>顶尖工程师文化的技术氛围，工程师都是 Apache committer 和 PMC</li>
+                      <li>正常国内的五险一金福利</li>
+                    </ol>
+                    <h3>带薪年假</h3>
+                    <ol>
+                      <li>一个可以平衡事业和生活的工作环境</li>
+                      <li>年龄仅仅是一个数字。不管您刚刚大学毕业还是已有家室，我们只为您的能力而来</li>
+                      <li>我们是一家分布式的公司，员工分布在国内 6 个城市，通过 GitHub、Slack、谷歌文档、腾讯会议完成全部的协作。</li>
+                    </ol>
+                    <h3>联系方式</h3>
+                    <p><a href="mailto:wenming@api7.ai">wenming@api7.ai</a></p>
                   </SArticle>
                   <div id="disqus_thread"></div>
                 </SBox2>

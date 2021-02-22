@@ -15,7 +15,3 @@ date: 2020-10-19 13:19:00
 2. Good coding habits, comfortable with test-driven development;
 3. Good English literacy skills;
 4. Contributors to open source projects preferred;
-
-### Contact
-
-[wenming@api7.ai](mailto:wenming@api7.ai)

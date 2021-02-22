@@ -14,7 +14,3 @@ date: 2020-10-19 13:19:00
 2. Developed Nginx C modules;
 3. Loves open source and has a strong interest in technology;
 4. Nginx, OpenResty code contributors are preferred;
-
-### Contact
-
-[wenming@api7.ai](mailto:wenming@api7.ai)

@@ -14,7 +14,3 @@ date: 2020-10-19 13:19:00
 2. 开发过 Nginx C 模块；
 3. 热爱开源，对技术有浓厚兴趣；
 4. Nginx、OpenResty 代码贡献者优先。
-
-### 联系方式
-
-[wenming@api7.ai](mailto:wenming@api7.ai)
