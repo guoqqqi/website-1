@@ -138,17 +138,13 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                       renderers={{ code: CodeBlock }}
                     />
                     <h3>{t("post-title1")}</h3>
-                    <ol>
-                      <li>{t("post-title1-list1")}</li>
-                      <li>{t("post-title1-list2")}</li>
-                      <li>{t("post-title1-list3")}</li>
-                    </ol>
-                    <h3>{t("post-title2")}</h3>
-                    <ol>
-                      <li>{t("post-title2-list1")}</li>
-                      <li>{t("post-title2-list2")}</li>
-                      <li>{t("post-title2-list3")}</li>
-                    </ol>
+                    <p>{t("post-title1-list1")}</p>
+                    <p>{t("post-title1-list2")}</p>
+                    <p>{t("post-title1-list3")}</p>
+                    <p>{t("post-title2")}</p>
+                    <p>{t("post-title2-list1")}</p>
+                    <p>{t("post-title2-list2")}</p>
+                    <p>{t("post-title2-list3")}</p>
                     <h3>{t("post-title3")}</h3>
                     <p><a href="mailto:wenming@api7.ai">wenming@api7.ai</a></p>
                   </SArticle>
