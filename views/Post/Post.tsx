@@ -137,16 +137,6 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                       plugins={[gfm]}
                       renderers={{ code: CodeBlock }}
                     />
-                    <h3>{t("post-title1")}</h3>
-                    <p>{t("post-title1-list1")}</p>
-                    <p>{t("post-title1-list2")}</p>
-                    <p>{t("post-title1-list3")}</p>
-                    <p>{t("post-title1-list4")}</p>
-                    <p>{t("post-title1-list5")}</p>
-                    <p>{t("post-title1-list6")}</p>
-                    <p>{t("post-title1-list7")}</p>
-                    <h3>{t("post-title3")}</h3>
-                    <p><a href="mailto:wenming@api7.ai">wenming@api7.ai</a></p>
                   </SArticle>
                   <div id="disqus_thread"></div>
                 </SBox2>
