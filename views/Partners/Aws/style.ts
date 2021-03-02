@@ -85,7 +85,6 @@ export const SContainer = styled.div`
 
   @media (max-width: 770px) {
     width: 100%;
-    text-align: center;
 
     .row {
       width: 100%;
