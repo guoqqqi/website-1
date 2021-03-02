@@ -17,12 +17,12 @@ type Props = {
 const Aws: NextPage<Props, any> = ({ t }) => {
   return (
     <div>
-      <NextSeo title={t(`common:news`)} />
+      <NextSeo title={t(`common:aws`)} />
       <div>
         <Nav />
         <SSection1>
           <div className='background'>
-          <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/pattern-2.svg" alt=""/>
+            <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/pattern-2.svg" alt="" />
           </div>
           <SContainer>
             <SCard>
@@ -35,8 +35,8 @@ const Aws: NextPage<Props, any> = ({ t }) => {
               </h4>
             </SCard>
             <SCard>
-              <p>
-                <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/aws.jpg" alt=""/>
+              <p className="box">
+                <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/aws.jpg" alt="" />
               </p>
             </SCard>
           </SContainer>
@@ -45,14 +45,14 @@ const Aws: NextPage<Props, any> = ({ t }) => {
           <SContainer>
             <SWrapper>
               <p className="title">Overview</p>
-              <p className="logo"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/icn-cloud-1.svg" alt="123"/></p>
+              <p className="logo"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/icn-cloud-1.svg" alt="123" /></p>
               <p>Organizations are attempting to modernize by embracing decentralized architectures, automating workflows, and adopting CI/CD practices. Kong’s Service Control Platform is designed to optimize today’s application modernization needs through intelligent automation across the full lifecycle of APIs and services.</p>
               <p>&nbsp;</p>
               <p>Kong’s plug-in architecture and open-source core make the platform extensible for any use case. Kong accelerates moving mission-critical services to the AWS cloud by reducing disruption to the business during and after migration. Kong also enables AWS services integration to legacy on-premise systems that are not designed to handle cloud-volume requests. Kong works with AWS EKS, Lambda, ECS, RDS, Aurora, ElastiCache and more.</p>
               <div>
-                <div className="card"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/AmazonLinux2.svg" alt="123"/></div>
-                <div className='card'><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/AWSLambda.svg" alt="123"/></div>
-                <div className="card"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/DevOpsCompetency.svg" alt="123"/></div>
+                <div className="card"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/AmazonLinux2.svg" alt="123" /></div>
+                <div className='card'><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/AWSLambda.svg" alt="123" /></div>
+                <div className="card"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/DevOpsCompetency.svg" alt="123" /></div>
               </div>
             </SWrapper>
           </SContainer>
@@ -67,14 +67,14 @@ const Aws: NextPage<Props, any> = ({ t }) => {
               </SCard>
               <SCard>
                 <div>
-                <p><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws1.jpg" alt=""/></p>
+                  <p className="box"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws1.jpg" alt="" /></p>
                 </div>
               </SCard>
             </div>
             <div className="row">
               <SCard>
                 <div>
-                <p><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws2.jpg" alt=""/></p>
+                  <p className="box"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws2.jpg" alt="" /></p>
                 </div>
               </SCard>
               <SCard>
@@ -89,18 +89,18 @@ const Aws: NextPage<Props, any> = ({ t }) => {
               </SCard>
               <SCard>
                 <div>
-                <p><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws3.jpg" alt=""/></p>
+                  <p className="box"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws3.jpg" alt="" /></p>
                 </div>
               </SCard>
             </div>
           </SContainer>
         </SSection3>
         <SSection4>
-          <div className="background"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/pattern-2.svg" alt=""/></div>
+          <div className="background"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/pattern-2.svg" alt="" /></div>
           <SContainer>
-            <div className="row">
+            <div className="col">
               <h2>Learn More About Kong for Amazon Web Services.</h2>
-              <div><span><a href="" target="blank">Learn More</a></span></div>
+              <div className="button"><span><a href="" target="blank">Learn More</a></span></div>
             </div>
           </SContainer>
         </SSection4>

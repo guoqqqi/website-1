@@ -33,7 +33,6 @@ export const SContainer = styled.div`
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
 
   .row {
     margin-bottmo: 0;
@@ -46,6 +45,10 @@ export const SContainer = styled.div`
       margin-top: 0;
       color: #1155cb;
     }
+  }
+
+  .box {
+    text-align: center;
   }
 `
 
@@ -92,9 +95,7 @@ export const SCard = styled.div`
     font-weight: 400;
     line-height: 24px;
     img {
-      display: block;
       position: absolute;
-      left: 50%;
       top: 50%;
       max-height: calc(100% + 50px);
       height: calc(100% + 50px);
@@ -213,14 +214,72 @@ export const SSection4 = styled.section`
   background-repeat: no-repeat;
   box-sizing: inherit;
   border-top: 1px solid #f4f6f9;
-  border-bottom: 1px solid #f4f6f9;
+  border-bottom: 2px solid #f4f6f9;
 
-  // .background {
-  //   img {
-  //     width: 100%;
-  //     position: absolute;
-  //     min-height: 100%;
-  //     top: 0;
-  //   }
+  .background {
+    img {
+      width: 100%;
+      position: absolute;
+      min-height: 100%;
+      top: 0;
+    }
+  }
+
+  .col {
+    display: block;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 300;
+      margin-top: 0;
+      color: #1155cb;
+      position: relative;
+      z-index: 2;
+      line-height: 50px;
+      text-align: center;
+      max-width: 850px;
+      display: block;
+      margin: 20px auto 10px;
+    }
+
+    .button {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+
+      span {
+        border-radius: 0;
+        background: 0 0;
+        border: 1px solid #1155cb;
+        cursor: pointer;
+        color: #fff;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+        width: 160px;
+        margin: 0 auto;
+        display: block;
+
+        :hover {
+          background-color: #1155cb;
+
+          a {
+            color: #fff;
+          }
+        }
+      }
+
+      a {
+        color: #1155cb;
+        padding: 10px 16px;
+        position: relative;
+        display: block;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-decoration: none;
+      }
+    }
   }
 `
