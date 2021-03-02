@@ -7,7 +7,7 @@ Author: [Sun Yi](https://github.com/LiteSun)
 
 ## Background
 
-In the article ["Stable Product Delivery with Cypress"](stable-product-delivery-with-cypress), we discussed why we chose Cypress as our E2E testing framework. After spending nearly two months refining the test cases, we needed test coverage to quantify whether the test coverage was sufficient. This article will describe how to use Cypress to get E2E coverage on the front end of APISIX Dashboard.
+In the article ["Stable Product Delivery with Cypress"](stable-product-delivery-with-cypress), we discussed why we chose Cypress as our E2E testing framework. After spending nearly two months refining the test cases, we needed test coverage to quantify whether the test coverage was sufficient.This article will describe how to get APISIX Dashboard front-end E2E coverage using Cypress.
 
 ## What is code coverage?
 
@@ -21,31 +21,41 @@ Cypress officially recommends two approaches, the first is to generate a tempora
 
 1. Installing Dependencies
 
-    yarn add  babel-plugin-istanbul --dev
+```shell
+yarn add  babel-plugin-istanbul --dev
+```
 
 2. Install the cypress plug-in
 
-    yarn add  @cypress/code-coverage --dev
+```shell
+yarn add  @cypress/code-coverage --dev
+```
 
 3. Configuring babel
 
-        // web/config/config.ts
-        extraBabelPlugins: [
-            ['babel-plugin-istanbul',  {
-              "exclude": ["**/.umi", "**/locales"]
-            }],	
-          ],
+```ts
+// web/config/config.ts
+extraBabelPlugins: [
+    ['babel-plugin-istanbul',  {
+      "exclude": ["**/.umi", "**/locales"]
+    }],
+  ],
+```
 
 4. Configuring Cypress code coverage plugin
 
-        // web/cypress/plugins/index.js
-        module.exports = (on, config) => {
-          require('@cypress/code-coverage/task')(on, config);
-          return config;
-        };
-        
-        // web/cypress/support/index.js
-        import '@cypress/code-coverage/support';
+```javaScript
+// web/cypress/plugins/index.js
+module.exports = (on, config) => {
+  require('@cypress/code-coverage/task')(on, config);
+  return config;
+};
+```
+
+```javaScript
+// web/cypress/support/index.js
+import '@cypress/code-coverage/support';
+```
 
 5. Get Test Coverage
 
@@ -56,7 +66,9 @@ After the configuration is done, we need to run the test case. After the test ca
 
 The test coverage information will appear in the console after executing the following command.
 
-    npx nyc report --reporter=text-summary
+```shell
+npx nyc report --reporter=text-summary
+```
 
 ![2.png](https://lh4.googleusercontent.com/n0CON1WF64wEnh3IYEc3wwwOJ2Ft_WmMLfkhOPKIKxoW0NP6Eq8VplJ87EepL5zIWOeyfJhlDmhc3ImE0ivgRlXWe1RuW2x7vL_JEri7Mz6b3tOY0it8bVvUe83CAHNgeoyXZnsy)
 

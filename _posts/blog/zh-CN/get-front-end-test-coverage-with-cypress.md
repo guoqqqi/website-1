@@ -21,31 +21,41 @@ Cypress 官方推荐两种方式，第一种是通过 nyc 生成临时目录，�
 
 1. 安装依赖
 
-    yarn add  babel-plugin-istanbul --dev
+```shell
+yarn add  babel-plugin-istanbul --dev
+```
 
 2. 安装 cypress 插件
 
-    yarn add  @cypress/code-coverage --dev
+```shell
+yarn add  @cypress/code-coverage --dev
+```
 
 3. 配置 babel
 
-        // web/config/config.ts
-        extraBabelPlugins: [
-            ['babel-plugin-istanbul',  {
-              "exclude": ["**/.umi", "**/locales"]
-            }],	
-          ],
+```ts
+// web/config/config.ts
+extraBabelPlugins: [
+    ['babel-plugin-istanbul',  {
+      "exclude": ["**/.umi", "**/locales"]
+    }],
+  ],
+```
 
 4. 配置 Cypress code coverage 插件
 
-        // web/cypress/plugins/index.js
-        module.exports = (on, config) => {
-          require('@cypress/code-coverage/task')(on, config);
-          return config;
-        };
-        
-        // web/cypress/support/index.js
-        import '@cypress/code-coverage/support';
+```javaScript
+// web/cypress/plugins/index.js
+module.exports = (on, config) => {
+  require('@cypress/code-coverage/task')(on, config);
+  return config;
+};
+```
+
+```javaScript
+// web/cypress/support/index.js
+import '@cypress/code-coverage/support';
+```
 
 5. 获取测试覆盖率
 
@@ -56,7 +66,9 @@ Cypress 官方推荐两种方式，第一种是通过 nyc 生成临时目录，�
 
 执行下面的命令后测试覆盖率信息会出现在控制台。
 
-    npx nyc report --reporter=text-summary
+```shell
+npx nyc report --reporter=text-summary
+```
 
 ![2.png](https://lh4.googleusercontent.com/n0CON1WF64wEnh3IYEc3wwwOJ2Ft_WmMLfkhOPKIKxoW0NP6Eq8VplJ87EepL5zIWOeyfJhlDmhc3ImE0ivgRlXWe1RuW2x7vL_JEri7Mz6b3tOY0it8bVvUe83CAHNgeoyXZnsy)
 
