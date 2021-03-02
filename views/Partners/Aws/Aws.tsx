@@ -73,13 +73,18 @@ const Aws: NextPage<Props, any> = ({ t }) => {
             </div>
             <div className="row">
               <SCard>
-                <div>
+                <div className="inner">
                   <p className="box"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws2.jpg" alt="" /></p>
                 </div>
               </SCard>
               <SCard>
                 <h3>Flexible and Extensible</h3>
                 <p>Kong’s active open source core is developed by a global community of developers focused on the next era of API management. Kong’s plug-in architecture makes it easy for organizations to take advantage of plug-ins sourced from the community, third-party providers, and from Kong’s Enterprise team. See the Kong Hub to learn about Kong’s AWS Lambda and Kong on AWS with Terraform plug-ins.</p>
+              </SCard>
+              <SCard>
+                <div className="inner2">
+                  <p className="box"><img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/aws2.jpg" alt="" /></p>
+                </div>
               </SCard>
             </div>
             <div className="row">

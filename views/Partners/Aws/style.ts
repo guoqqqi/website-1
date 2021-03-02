@@ -21,6 +21,10 @@ export const SSection1 = styled.section`
       top: 0;
     }
   }
+
+  .bigBox {
+    width: 1300px;
+  }
 `
 
 export const SContainer = styled.div`
@@ -49,6 +53,64 @@ export const SContainer = styled.div`
 
   .box {
     text-align: center;
+  }
+
+  .inner2 {
+    display: none;
+  }
+
+  @media (max-width: 1300px) {
+    width: 1100px;
+  }
+
+  @media (max-width: 1100px) {
+    width: 900px;
+    .box {
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    width: 700px;
+    .box {
+      img {
+        width: 280px;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: 770px) {
+    width: 100%;
+    text-align: center;
+
+    .row {
+      width: 100%;
+      display: block;
+      position: relative;
+      justify-content: center;
+      -webkit-box-pack: center;
+      align-items: flex-start;
+      margin: 0 !important;
+    }
+
+    .box {
+      img {
+        transform: translateX(0);
+        position: initial;
+      }
+    }
+
+    .inner {
+      display: none;
+    }
+
+    .inner2 {
+      display: block;
+    }
   }
 `
 
@@ -113,6 +175,10 @@ export const SCard = styled.div`
     z-index: 9;
     width: 100%;
   }
+
+  @media (max-width: 770px) {
+    width: 100%;
+  }
 `
 
 export const SSection2 = styled.section`
@@ -169,7 +235,8 @@ export const SWrapper = styled.div`
   }
 
   .card {
-    max-width: 33.33%;
+    display: flex;
+    width: 33.33%;
     padding-right: 16px;
     padding-left: 16px;
 
@@ -178,6 +245,23 @@ export const SWrapper = styled.div`
       max-width: 250px;
       width: 100%;
       margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 770px) {
+    div {
+      display: block;
+      padding-top: 16px;
+    }
+    .card {
+      display: block;
+      margin: 0 auto;
+      width: 100% !important;
+
+      img {
+        width: 100% !important;
+        display: flex;
+      }
     }
   }
 `
