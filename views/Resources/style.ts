@@ -13,6 +13,18 @@ export const SWrapper = styled.div`
     background-position: bottom center;
     background-size: cover;
     position: relative;
+
+    @media (max-width: 1600px) {
+      background-size: 150%;
+    }
+
+    @media (max-width: 1050px) {
+      background-size: 200%;
+    }
+
+    @media (max-width: 750px) {
+      background-size: 220%;
+    }
     
     .box {
       max-width: 1288px;
