@@ -60,6 +60,7 @@ export const SWrapper = styled.div`
       margin: 0;
       padding: 10px 0;
       margin-bottom: 8px;
+      border-top: 1px solid #e9e9ed;
     }
 
     ul {
@@ -156,15 +157,44 @@ export const SWrapper = styled.div`
     .content {
       padding: 15px;
     }
-
-    @media (min-width: 1300px) {
-      width: 1588px;
-    }
   }
 
   @media (max-width: 460px) {
     .container {
       padding: 28px 12px;
+      box-sizing: border-box;
+
+      h2 {
+        font-size: 26px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      li {
+        padding: 20px 0;
+      }
+    }
+
+    .cover {
+      background-size: auto;
+    }
+
+    .title, .speaker {
+      font-size: 16px !important;
+    }
+
+    .left {
+      max-width: 70%;
+    }
+
+    .showButton {
+      margin-left: 10px !important;
+    }
+
+    .right {
+      width: 30%;
+      font-size: 14px;
+      padding-left: 10px;
     }
   }
 `;
