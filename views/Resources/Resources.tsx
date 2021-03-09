@@ -46,14 +46,16 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
             <h2>视频列表</h2>
             <ul>
               {list.map((item, index) => (
-                <li id={`role${index}`} key={item.title}>
+                <li key={item.title}>
                   <div className="left">
                     <p className="title">{item.title}</p>
                     <p className="speaker">{item.desc}</p>
                   </div>
-                  <a className="showButton" id="show" href={`#${item.title}`}>观看描述</a>
                   <div className="right" id="stp"><a href={item.path} target="blank">观看视频</a></div>
-                  <div className="contentBox" id="contentBox">
+                  <span id={`role${index}`}>
+                    <a className="showButton" href={`#${item.title}`}>观看描述</a>
+                  </span>
+                  <div className="contentBox">
                     <div className="content">
                       <p>{item.content}</p>
                     </div>
@@ -73,7 +75,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
 Resources.getInitialProps = async (context) => {
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data["keynotes"][lng];
+  const posts = data["videos"][lng];
 
   return {
     namespacesRequired: ["common"],

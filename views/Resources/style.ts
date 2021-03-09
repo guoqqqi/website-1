@@ -88,7 +88,6 @@ export const SWrapper = styled.div`
       clear: both;
       display: block;
       overflow: hidden;
-      cursor: pointer;
     }
 
     .left {
@@ -166,7 +165,7 @@ export const SWrapper = styled.div`
       background-position: 0 12px !important;
     }
 
-    .active .contentBox {
+    .active + .contentBox {
       max-height: 200px !important;
     }
 
