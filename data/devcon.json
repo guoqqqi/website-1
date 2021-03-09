@@ -16,7 +16,7 @@
       {
         "title": "APISIX 与微服务网关模式在 Airwallex 的实践",
         "desc": "李扬｜Airwallex",
-        "content": "Airwallex 引入 API 网关后提高了哪些性能，它的网关选型和网关架构是什么？以及它的分布式路由管理的结构是怎样的",
+        "content": "Airwallex 引入 API 网关后提高了哪些性能，它的网关选型和网关架构是什么？以及它的分布式路由管理的结构是怎样的？",
         "path": "/zh/apisix-devcon-2020/airwallex"
       },
       {
