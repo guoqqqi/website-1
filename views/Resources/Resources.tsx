@@ -43,7 +43,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
         </div>
         <section>
           <div className="container">
-            <h2>Videos</h2>
+            <h2>视频列表</h2>
             <ul>
               {list.map((item, index) => (
                 <li id={`role${index}`} key={item.title}>
@@ -51,7 +51,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
                     <p className="title">{item.title}</p>
                     <p className="speaker">{item.desc}</p>
                   </div>
-                  <a className="showButton" id="show" href={`#${item.title}`}>View Description</a>
+                  <a className="showButton" id="show" href={`#${item.title}`}>观看描述</a>
                   <div className="right" id="stp"><a href={item.path} target="blank">观看视频</a></div>
                   <div className="contentBox" id="contentBox">
                     <div className="content">
