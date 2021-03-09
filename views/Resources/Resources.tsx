@@ -9,7 +9,7 @@ import FooterLinks from "@/components/FooterLinks";
 
 import { withTranslation } from "../../i18n";
 import { SWrapper } from "./style";
-import data from "../../data/news.json";
+import data from "../../data/devcon.json";
 
 type Props = {
   t: TFunction;
@@ -48,16 +48,16 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
               {list.map((item, index) => (
                 <li id={`role${index}`} key={item.title}>
                   <div className="left">
-                    <a href="">
-                      <p className="title">test UI</p>
+                    <a href={`#${item.title}`}>
+                      <p className="title">{item.title}</p>
                     </a>
-                    <p className="speaker">test data</p>
+                    <p className="speaker">{item.desc}</p>
                   </div>
-                  <a className="showButton" id="show" href="#Kafka Summit 2020 Keynote | Kafka’s New Architecture">View Description</a>
-                  <div className="right"><a href="">View Video and Slides</a></div>
+                  <a className="showButton" id="show" href={`#${item.title}`}>View Description</a>
+                  <div className="right" id="stp"><a href={item.path}>View Video</a></div>
                   <div className="contentBox" id="contentBox">
                     <div className="content">
-                      <p>test data</p>
+                      <p>{item.content}</p>
                     </div>
                   </div>
                 </li>
@@ -75,7 +75,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
 Resources.getInitialProps = async (context) => {
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data["news"][lng];
+  const posts = data["keynotes"][lng];
 
   return {
     namespacesRequired: ["common"],
@@ -83,4 +83,4 @@ Resources.getInitialProps = async (context) => {
   };
 };
 
-export default withTranslation("news")(Resources as any);
+export default withTranslation("resources")(Resources as any);
