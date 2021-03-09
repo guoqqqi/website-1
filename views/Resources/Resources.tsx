@@ -33,12 +33,12 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
 
   return (
     <SWrapper>
-      <NextSeo title="Resources" />
+      <NextSeo title="资源" />
       <div>
         <Nav />
         <div className="cover">
           <div className="box">
-            <h1>APISIX Devcon 2020</h1>
+            <h1>Apache APISIX Devcon 2020</h1>
           </div>
         </div>
         <section>
@@ -54,7 +54,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
                     <p className="speaker">{item.desc}</p>
                   </div>
                   <a className="showButton" id="show" href={`#${item.title}`}>View Description</a>
-                  <div className="right" id="stp"><a href={item.path}>View Video</a></div>
+                  <div className="right" id="stp"><a href={item.path}>观看视频</a></div>
                   <div className="contentBox" id="contentBox">
                     <div className="content">
                       <p>{item.content}</p>

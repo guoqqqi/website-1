@@ -131,6 +131,10 @@ export const SWrapper = styled.div`
       transition-timing-function: ease-out;
       transition-delay: 0s;
       margin-top: 0;
+      color: #4A4A4A;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.78;
       overflow: hidden;
       float: left;
       clear: both;
