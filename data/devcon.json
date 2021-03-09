@@ -4,13 +4,13 @@
       {
         "title": "2020 Apache APISIX DevCon@上海",
         "desc": "参会人员自我介绍",
-        "content": "",
+        "content": "无更多介绍",
         "path": "/zh/keynotes/self-introduction"
       },
       {
         "title": "Apache APISIX 的过去和未来",
         "desc": "温铭｜Apache APISIX PMC",
-        "content": "",
+        "content": "无更多介绍",
         "path": "/zh/keynotes/the-past-and-future-of-apache-apisix"
       },
       {
@@ -52,13 +52,13 @@
       {
         "title": "Apache APISIX 落地 openEuler 社区",
         "desc": "马俊杰｜航天网信",
-        "content": "",
+        "content": "无更多介绍",
         "path": "/zh/keynotes/openeuler"
       },
       {
         "title": "微博基于 APISIX 的定制开发",
         "desc": "聂永｜微博",
-        "content": "",
+        "content": "无更多介绍",
         "path": "/zh/keynotes/microblog"
       }
     ]

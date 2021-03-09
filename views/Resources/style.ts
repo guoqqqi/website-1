@@ -8,7 +8,7 @@ export const SWrapper = styled.div`
     width: 100%;
     padding: 160px 0 120px;
     font-family: Helvetica;
-    background-image: url("https://cdn.confluent.io/wp-content/uploads/ks2020bg.png");
+    background-image: url("https://static.apiseven.com/202102/312635047.jpeg");
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
