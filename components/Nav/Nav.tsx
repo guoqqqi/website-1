@@ -40,7 +40,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
               renderMenuOnMount={true}
             >
               <NavDropdown.Item href="https://github.com/apache/apisix">Apache APISIX</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">Apache APISIX ingress Controller</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">Apache APISIX Ingress Controller</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
               title={t("commercial-products-and-support")}
