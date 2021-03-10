@@ -94,7 +94,7 @@ export const SWrapper = styled.div`
       float: left;
       max-width: 80%;
 
-      p {
+      p,.title {
         margin-bottom: 0;
         font-weight: 300;
         line-height: 1.78;
@@ -102,14 +102,12 @@ export const SWrapper = styled.div`
         font-size: 18px;
         font-family: MarkOT,sans-serif;
         word-wrap: break-word;
+        text-decoration: none;
       }
     }
 
-    .title {
-      text-decoration: none;
-      :hover {
-        color: #007bff;
-      }
+    .title:hover {
+      color: #007bff;
     }
 
     .speaker {
