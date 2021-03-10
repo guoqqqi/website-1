@@ -93,7 +93,6 @@ export const SWrapper = styled.div`
     .left {
       float: left;
       max-width: 80%;
-      pointer-events: none;
 
       p {
         margin-bottom: 0;
@@ -103,6 +102,13 @@ export const SWrapper = styled.div`
         font-size: 18px;
         font-family: MarkOT,sans-serif;
         word-wrap: break-word;
+      }
+    }
+
+    .title {
+      text-decoration: none;
+      :hover {
+        color: #007bff;
       }
     }
 
@@ -131,6 +137,9 @@ export const SWrapper = styled.div`
       a {
         text-decoration: none;
         outline: 0;
+        :hover {
+          color: #007bff;
+        }
       }
     }
 
