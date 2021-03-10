@@ -41,7 +41,6 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
             >
               <NavDropdown.Item href="https://github.com/apache/apisix">Apache APISIX</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">Apache APISIX ingress Controller</NavDropdown.Item>
-              <NavDropdown.Item href="">Service Mesh</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
               title={t("commercial-products-and-support")}
@@ -59,7 +58,6 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
             >
               <NavDropdown.Item href="/blog">{t("blog")}</NavDropdown.Item>
               <NavDropdown.Item href="/usercases">{t("showcases")}</NavDropdown.Item>
-              <NavDropdown.Item href="mailto:wenming@api7.ai">{t("help")}</NavDropdown.Item>
               <NavDropdown.Item href="/resources/apisix-devcon-2020">DevCon</NavDropdown.Item>
               <NavDropdown.Item href="/contributor-graph">{t("contributor-graph")}</NavDropdown.Item>
             </NavDropdown>
