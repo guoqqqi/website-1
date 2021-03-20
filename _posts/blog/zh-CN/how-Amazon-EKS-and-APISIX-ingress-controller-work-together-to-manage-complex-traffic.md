@@ -124,6 +124,6 @@ ingress-apisix chart 将引导我们安装 Controller 自身，我们可以将 i
       }
     }
 
-如果 Serivce 类型为 ClusterIP，则需要登录到Amazon EKS 集群中的一个 Pod，随后使用 ClusterIP或Service FQDN访问Apache APISIX。如果已经暴露（无论暴露了 NodePort或 LoadBalancer），则可直接访问可触达的外部端点。
+如果 Serivce 类型为 ClusterIP，则需要登录到 Amazon EKS 集群中的一个 Pod，随后使用 ClusterIP 或 Service FQDN 访问 Apache APISIX。如果已经暴露（无论暴露了 NodePort或 LoadBalancer），则可直接访问可触达的外部端点。
 
 注：该文章转自 aws 微信公众号。
