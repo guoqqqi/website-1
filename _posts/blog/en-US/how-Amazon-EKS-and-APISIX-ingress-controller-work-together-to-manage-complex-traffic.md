@@ -7,7 +7,7 @@ Author: Amazon Cloud Technologies AWS Cloud Computing
 
 ## Background
 
-Looking forward, looking forward, the Chinese New Year is near ...... As traffic managers, sometimes it's hard to stop the unexpected even with all the pre-holiday preparations! It's vital to build a well-connected API gateway! Here's the ultimate developer trick today: **Amazon EKS + Ingress APISIX!**
+As a traffic manager, sometimes even when you're prepared for the unexpected, it's hard to stop the unexpected. Building a four-way API gateway is crucial! Here's how **Amazon EKS + Ingress APISIX!** can help with that today.
 
 ## Introduction
 
