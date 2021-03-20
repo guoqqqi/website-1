@@ -10,7 +10,7 @@ date: 2021-03-19 17:20:00
 
 ### Requirements
 
-1. Proficiency in front-end frameworks such as Jquery, Bootstrap, Ant Design and familiarity with objectified Javascript programming;
+1. Proficiency in front-end frameworks such as jQuery, Bootstrap, Ant Design and familiarity with objectified Javascript programming;
 2. Experience in the development of enterprise products or SaaS;
 3. Knowledge of user experience, interaction and user requirement analysis, product or interface design experience is preferred;
 4. Strong self-learning ability, relatively high enthusiasm and concern for front-end cutting-edge areas, good execution, good willingness to communicate and collaborate, and focus on efficiency.
