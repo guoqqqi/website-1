@@ -91,20 +91,11 @@ export const SSection2 = styled.div`
   margin: 0 auto;
   position: relative;
   background-color: transparent;
-
-  @media (min-width: 1200px) {
-    width: 1170px;
-    padding: 0;
-  }
 `;
 
 export const SBox2 = styled.div`
   min-height: 591px;
   padding: 0 1rem;
-
-  @media (max-width: 420px) {
-    min-height: 480px;
-  }
 `;
 
 export const SArticle = styled.article`
@@ -114,7 +105,6 @@ export const SArticle = styled.article`
   line-height: 1.618;
   color: #586376;
   word-break: break-all;
-  -webkit-font-smoothing: antialiased;
 
   p {
     margin: 20px 0;
@@ -145,7 +135,6 @@ export const SArticle = styled.article`
   }
 
   p a {
-    -webkit-box-shadow: none;
     box-shadow: none;
     text-decoration: none;
     color: #ff2500;
