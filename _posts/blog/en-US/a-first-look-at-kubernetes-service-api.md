@@ -21,7 +21,7 @@ This article provides an introduction to the basic concepts of Kubernetes Servic
 
 The Kubernetes Service APIs were not designed to be limited to Ingress, but rather to enhance service networking with a focus on the following: expressiveness, scalability, and RBAC.
 
-1. More expressiveness, e.g. managing traffic based on header, weighting.
+1. More features, e.g. managing traffic based on the header, weight.
 
 ```text
 kind: HTTPRoute
