@@ -9,7 +9,7 @@ Author: Jin Wei
 
 We know that Kubernetes has a number of solutions for exposing services inside the cluster, one of the more popular being Ingress, which is a standard for exposing services to the outside world and has a number of third party implementations, each with their own technology stack and dependencies on gateways that are not compatible with each other.
 
-In order to unify the various Ingress implementations and facilitate uniform management on Kubernetes, the [SIG-NETWORK](https://github.com/kubernetes/community/tree/master/sig-network) community has released [ Kubernetes Service APIs](https://kubernetes-sigs.github.io/service-apis/), a set of standard implementations called second-generation Ingress.
+In order to unify the various Ingress implementations and facilitate uniform management on Kubernetes, the [SIG-NETWORK](https://github.com/kubernetes/community/tree/master/sig-network) community has released [Kubernetes Service APIs](https://kubernetes-sigs.github.io/service-apis/), a set of standard implementations called second-generation Ingress.
 
 ## Subject Description
 
