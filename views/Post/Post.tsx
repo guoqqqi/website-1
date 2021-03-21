@@ -12,7 +12,6 @@ import { withTranslation } from "../../i18n";
 import {
   SSection1,
   SSection2,
-  SBackground,
   SBox1,
   SBox2,
   SInner,
@@ -112,14 +111,16 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
         {content !== undefined && (
           <div>
             <SSection1>
-              <SBackground></SBackground>
               <SBox1>
                 <SInner>
                   <h1>{data.title}</h1>
-                  <span>
-                    {t("common:updatedAt")}&nbsp;
-                      {new Date(data.date).toLocaleDateString()}
-                  </span>
+                  <div>
+                    <img src="https://apache.org/logos/res/apisix/apisix.png" alt=""/>
+                    <span>
+                      {t("common:updatedAt")}&nbsp;
+                        {new Date(data.date).toLocaleDateString()}
+                    </span>
+                  </div>
                 </SInner>
               </SBox1>
             </SSection1>
