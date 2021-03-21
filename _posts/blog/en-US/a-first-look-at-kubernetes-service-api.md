@@ -23,7 +23,7 @@ The Kubernetes Service APIs were not designed to be limited to Ingress, but rath
 
 1. More features, e.g. managing traffic based on the header, weight.
 
-```text
+```yaml
 kind: HTTPRoute
 apiVersion: networking.x-k8s.io/v1alpha1
 ...
