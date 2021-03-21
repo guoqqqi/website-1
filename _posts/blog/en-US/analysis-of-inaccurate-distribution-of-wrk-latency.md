@@ -1,9 +1,9 @@
 ---
 title: "Analysis of inaccurate distribution of wrk latency"
+author: "Wen Ming"
+href: ""
 date: 2018-09-03
 ---  
-
-Author: Wen Ming
 
 ![1.jpg](https://pic4.zhimg.com/80/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg)
 

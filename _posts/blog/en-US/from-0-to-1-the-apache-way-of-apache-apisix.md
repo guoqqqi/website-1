@@ -1,9 +1,9 @@
 ---
 title: "From 0 to 1: Apache APISIX's Apache Way"
+author: "Wen Ming"
+href: ""
 date: 2019-12-26
 ---
-
-Author: Wen Ming
 
 Apache APISIX is a very young project, open source in June this year, joined the CNCF Panorama in July, and entered the Apache Incubator in October, so I will share with you how APISIX went from 0 to 1 and entered the Apache Incubator.
 

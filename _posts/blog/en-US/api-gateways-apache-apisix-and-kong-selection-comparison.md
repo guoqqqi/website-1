@@ -1,9 +1,9 @@
 ---
 title: "API Gateways Apache APISIX and Kong Selection Comparison"
+author: "Wen Ming"
+href: ""
 date: 2020-01-18
 ---
-
-Author: Wen Ming
 
 Apache APISIX and Kong are both open source microservice API gateways, so how do you compare and choose between them?
 

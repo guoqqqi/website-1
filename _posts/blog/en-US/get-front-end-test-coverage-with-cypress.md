@@ -1,9 +1,9 @@
 ---
 title: "Get Front-End Test Coverage with Cypress"
+author: "Sun Yi"
+href: "https://github.com/LiteSun"
 date: 2021-03-02
 ---
-
-Author: [Sun Yi](https://github.com/LiteSun)
 
 ## Background
 

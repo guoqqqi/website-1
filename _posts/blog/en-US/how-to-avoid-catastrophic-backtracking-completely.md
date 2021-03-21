@@ -1,9 +1,9 @@
 ---
 title: "How to avoid Catastrophic Backtracking in Regex?"
+author: "Wen Ming"
+href: ""
 date: 2020-12-17
 ---
-
-Author: Wen Ming
 
 Catastrophic Backtracking of regular expressions refers to the fact that the regular expression backtracks too much when it matches, causing 100% CPU and blocking normal services.
 

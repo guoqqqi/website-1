@@ -1,9 +1,9 @@
 ---
 title: "使用 Cypress 让产品持续稳定交付"
+author: "孙毅"
+href: "https://github.com/LiteSun"
 date: 2021-02-07
 ---
-
-作者：[孙毅](https://github.com/LiteSun)
 
 ## 背景
 

@@ -1,9 +1,9 @@
 ---
 title: "Stable Product Delivery with Cypress"
+author: "Sun Yi"
+href: "https://github.com/LiteSun"
 date: 2021-02-07
 ---
-
-Author: [Sun Yi](https://github.com/LiteSun)
 
 ## Background
 

@@ -1,9 +1,9 @@
 ---
 title: "对 wrk 延迟分布不准确的分析"
+author: "温铭"
+href: ""
 date: 2018-09-03
 ---  
-
-作者：温铭 
 
 ![1.jpg](https://pic4.zhimg.com/80/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg)
 

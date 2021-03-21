@@ -1,9 +1,9 @@
 ---
 title: "How Amazon EKS and APISIX ingress controller work together to manage complex traffic"
+author: "Amazon Cloud Technologies AWS Cloud Computing"
+href: ""
 date: 2021-02-07
 ---  
-
-Author: Amazon Cloud Technologies AWS Cloud Computing
 
 ## Background
 
