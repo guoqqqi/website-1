@@ -51,7 +51,7 @@ GatewayClass, Gateway, Route
 
 1. GatewayClass defines a set of gateway types with common configuration and behaviour:
 
-- Relationship to Gateway, similar to ingess.class annotation in ingress;
+- Relationship to Gateway, similar to `ingess.class` annotation in ingress;
 
 - A GatewayClass defines a group of gateways that share the same configuration and behaviour. Each GatewayClass will be handled by a single controller, with the controller having a one-to-many relationship with the GatewayClass;
 
