@@ -123,7 +123,7 @@ The Kubernetes Service APIs currently focus on Route:
 
 - RouteMatch extends Route matching rules.
 
-- spcify Backend extends specific types of backend services, such as file systems, function expressions, etc., in addition to the Kubernetes resources mentioned above.
+- specify Backend extends specific types of backend services, such as file systems, function expressions, etc., in addition to the Kubernetes resources mentioned above.
 
 - Route filter adds extensions to the Route lifecycle to handle requests/response.
 
