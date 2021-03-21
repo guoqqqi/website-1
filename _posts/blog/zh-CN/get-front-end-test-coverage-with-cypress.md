@@ -1,9 +1,9 @@
 ---
 title: "使用 Cypress 获取前端测试覆盖率"
+author: "孙毅"
+href: "https://github.com/LiteSun"
 date: 2021-03-02
 ---
-
-作者：[孙毅](https://github.com/LiteSun)
 
 ## 背景
 

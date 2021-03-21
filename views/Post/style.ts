@@ -20,13 +20,6 @@ export const SBox1 = styled.div`
     min-height:inherit;
     font-size:0;
   }
-`;
-
-export const SInner = styled.div`
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  align-content: flex-start; 
 
   h1 {
     text-align: left;
@@ -34,35 +27,82 @@ export const SInner = styled.div`
     font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 48px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 60px;
   }
 
-  div {
-    min-width: 250px;
-    margin-top: 25px;
-    display: flex;
+  @media (max-width: 560px) {
+    h1 {
+      font-size: 38px;
+      line-height: 1.4em;
+    }
+  }
+`;
+
+export const SInner = styled.div`
+  display: flex;
+  margin-top: 25px;
+
+
+  a {
+    box-shadow: none;
+    text-decoration: none;
+    color: #FF2500;
+    font-weight: 300;
+
+    :hover {
+      text-decoration: none;
+      opacity: .75;
+    }
   }
 
   img {
     width: 58px;
     height: 58px;
+    border-radius: 50%;
   }
 
-  span {
-    align-self: flex-end;
+  p {
+    min-width: 200px;
     color: rgba(117, 117, 117, 1);
     font-size: 14px;
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    padding: 0 2%;
+    padding: 0 3%;
+  }
+
+  .left {
+    width: 30%;
+    display: flex;
+
+    div {
+      align-self: flex-end;
+    }
+  }
+
+  .right {
+    width: 70%;
+    align-self: flex-end;
+
+    svg {
+      width: 29px;
+      height: 29px;
+    }
+    
+    ul {
+      float: right;
+      list-style-type: none;
+      display: flex;
+      font-size: 14px;
+      padding: 0 3%;
+
+      li {
+        padding-right: 6px;
+      }
+    }
   }
 
   @media (max-width: 1024px) {
-    h1 {
-      font-size: 46px;
-    }
-
     span {
       padding-top: 5%;
     }
@@ -95,7 +135,7 @@ export const SSection2 = styled.div`
 
 export const SBox2 = styled.div`
   min-height: 591px;
-  padding: 0 1rem;
+  padding: 0 1rem 1rem;
 `;
 
 export const SArticle = styled.article`
