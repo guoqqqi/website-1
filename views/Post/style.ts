@@ -141,7 +141,7 @@ export const SArticle = styled.article`
     margin-block-end: 1em;
     margin-inline-start: 0em;
     margin-inline-end: 0em;
-    padding-inline-start: 30px;
+    padding-inline-start: 25px;
   }
 
   p a {

@@ -115,7 +115,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                 <SInner>
                   <h1>{data.title}</h1>
                   <div>
-                    <img src="https://apache.org/logos/res/apisix/apisix.png" alt=""/>
+                    <img src="https://apache.org/logos/res/apisix/apisix.png" alt="" />
                     <span>
                       {t("common:updatedAt")}&nbsp;
                         {new Date(data.date).toLocaleDateString()}
