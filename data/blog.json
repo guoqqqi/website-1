@@ -67,7 +67,7 @@
       "path": "/zh/blog/how-to-build-gateway-based-on-apache-apisix"
     },
     {
-      "title": " Apache APISIX 和 Kong 的对比",
+      "title": "Apache APISIX 和 Kong 的对比",
       "cover": "https://pic3.zhimg.com/80/v2-4b6f9dd69f9a087969e3ed59ba59d60a_1440w.jpg",
       "date": "2020-01-18",
       "path": "/zh/blog/api-gateways-apache-apisix-and-kong-selection-comparison"

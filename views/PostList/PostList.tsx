@@ -7,6 +7,7 @@ import { withTranslation } from "../../i18n";
 import { SWrapper } from "./style";
 import blogData from "../../data/blog.json"
 import usercaseData from "../../data/usercase.json"
+import PostListCard from "./components/PostListCard";
 
 type Props = {
   t: TFunction;
@@ -18,27 +19,12 @@ const PostList: NextPage<Props, any> = ({ t, type, list = [] }) => {
   return (
     <SWrapper>
       <NextSeo title={t(`common:${type}`)} />
-      <div>
-        <div className="cover">
-          <div className="background"></div>
-          <div className="box">
-            <h1>{t(`common:${type}`)}</h1>
-          </div>
-        </div>
+      <div style={{borderTop: "2px solid #F7FAFC"}}>
+        <PostListCard />
         <div className="slogan">
           <p>
             {t("about:about-box-desc4")}
           </p>
-        </div>
-        <div className="cards">
-          {list.map((item) => (
-            <div className="card" key={item.title}>
-              <img src={item.cover} alt="" />
-              <a href={item.path} target="_blank">
-                <h2>{item.title}</h2>
-              </a>
-            </div>
-          ))}
         </div>
       </div>
     </SWrapper>
