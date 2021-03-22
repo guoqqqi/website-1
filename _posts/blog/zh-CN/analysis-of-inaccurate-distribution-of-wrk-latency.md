@@ -1,5 +1,6 @@
 ---
 title: "对 wrk 延迟分布不准确的分析"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "温铭"
 href: ""
 date: 2018-09-03

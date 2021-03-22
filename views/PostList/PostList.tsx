@@ -19,13 +19,8 @@ const PostList: NextPage<Props, any> = ({ t, type, list = [] }) => {
   return (
     <SWrapper>
       <NextSeo title={t(`common:${type}`)} />
-      <div style={{borderTop: "2px solid #F7FAFC"}}>
+      <div style={{ borderTop: "2px solid #F7FAFC" }}>
         <PostListCard />
-        <div className="slogan">
-          <p>
-            {t("about:about-box-desc4")}
-          </p>
-        </div>
       </div>
     </SWrapper>
   );

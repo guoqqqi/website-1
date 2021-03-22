@@ -1,5 +1,6 @@
 ---
 title: "API 网关 Apache APISIX 和 Kong 的选型对比"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "温铭"
 href: ""
 date: 2020-01-18

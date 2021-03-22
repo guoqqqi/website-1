@@ -1,5 +1,6 @@
 ---
 title: "Analysis of inaccurate distribution of wrk latency"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "Wen Ming"
 href: ""
 date: 2018-09-03

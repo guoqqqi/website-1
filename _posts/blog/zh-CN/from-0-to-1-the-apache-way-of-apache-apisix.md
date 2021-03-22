@@ -1,5 +1,6 @@
 ---
 title: "从 0 到 1：Apache APISIX 的 Apache 之路"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "温铭"
 href: ""
 date: 2019-12-26

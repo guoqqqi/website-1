@@ -1,5 +1,6 @@
 ---
 title: "Amazon EKS 和 APISIX ingress controller 如何配合使用来管理复杂流量"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "亚马逊云科技 AWS云计算"
 href: ""
 date: 2021-02-07

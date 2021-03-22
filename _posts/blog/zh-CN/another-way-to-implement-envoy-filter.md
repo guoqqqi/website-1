@@ -1,5 +1,6 @@
 ---
 title: "Envoy 与 Apache APISIX: filter 的另一种实现方式"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 date: 2020-12-16
 ---
 

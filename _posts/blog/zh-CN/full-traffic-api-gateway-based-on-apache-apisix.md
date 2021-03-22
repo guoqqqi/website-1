@@ -1,5 +1,6 @@
 ---
 title: "基于 Apache APISIX 的全流量 API 网关"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 date: 2020-12-14
 ---
 

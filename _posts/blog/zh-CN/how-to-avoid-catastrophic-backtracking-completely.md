@@ -1,5 +1,6 @@
 ---
 title: "如何彻底避免正则表达式的灾难性回溯？"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "温铭"
 href: ""
 date: 2020-12-17

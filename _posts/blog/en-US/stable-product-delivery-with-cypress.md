@@ -1,5 +1,6 @@
 ---
 title: "Stable Product Delivery with Cypress"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
 author: "Sun Yi"
 href: "https://github.com/LiteSun"
 date: 2021-02-07
