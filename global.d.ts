@@ -6,6 +6,10 @@ type Post = {
   image: string
   path?: string
   date?: string | Date;
+  logo?: string;
+  url?: string;
+  desc?: string;
+  speaker?: string;
   author?: {
     name: string
     image: string
