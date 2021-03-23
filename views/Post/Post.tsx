@@ -43,7 +43,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
   const [shareUrl, setShareUrl] = useState('');
 
   useEffect(() => {
-    setShareUrl(`${window.location.href}`);
+    setShareUrl(window.location.href);
     if (!/(usercase|blog)/.test(window.location.pathname)) {
       return;
     }
