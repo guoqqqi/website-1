@@ -6,7 +6,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-18",
-      "href": "/zh/usercase/geely"
+      "path": "/zh/usercase/geely"
     },
     {
       "title": "360：Apache APISIX 在基础运维平台项目中的实践",
@@ -14,7 +14,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/360"
+      "path": "/zh/usercase/360"
     },
     {
       "title": "思必驰：为什么我们重新写了一个 k8s ingress controller？",
@@ -22,7 +22,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/aispeech"
+      "path": "/zh/usercase/aispeech"
     },
     {
       "title": "HelloTalk：基于 OpenResty 和 Apache APISIX 的全球化探索之路",
@@ -30,15 +30,15 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/hellotalk"
+      "path": "/zh/usercase/hellotalk"
     },
     {
       "title": "腾讯云：为什么选择 Apache APISIX 来实现 k8s ingress controller?",
       "image": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
-      "type": "article",
+      "type": "video",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/tencent-cloud"
+      "path": "/zh/usercase/tencent-cloud"
     }
   ],
   "en-US": [
@@ -48,7 +48,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-18",
-      "href": "/en/usercase/geely"
+      "path": "/en/usercase/geely"
     },
     {
       "title": "360: Apache APISIX in practice in the basic operation and maintenance platform project",
@@ -56,7 +56,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/360"
+      "path": "/zh/usercase/360"
     },
     {
       "title": "aispeech: Why have we rewritten a k8s ingress controller?",
@@ -64,7 +64,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/aispeech"
+      "path": "/zh/usercase/aispeech"
     },
     {
       "title": "HelloTalk: A Global Exploration Path Based on OpenResty and Apache APISIX",
@@ -72,15 +72,15 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/hellotalk"
+      "path": "/zh/usercase/hellotalk"
     },
     {
       "title": "Tencent Cloud: Why did you choose Apache APISIX to implement k8s ingress controller?",
       "image": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
-      "type": "article",
+      "type": "video",
       "tags": [],
       "date": "2020-12-11 17:16:00",
-      "href": "/zh/usercase/tencent-cloud"
+      "path": "/zh/usercase/tencent-cloud"
     }
   ]
 }

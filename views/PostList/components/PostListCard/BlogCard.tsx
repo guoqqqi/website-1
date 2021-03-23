@@ -10,7 +10,7 @@ export interface BlogData {
   title: string
   description?: string
   image: string
-  href?: string
+  path?: string
   date?: string | Date;
   author?: {
     name: string
@@ -25,7 +25,7 @@ interface BlogCardProps extends BoxProps {
 
 export const BlogCard = (props: BlogCardProps) => {
   const { data, ...rest } = props
-  const { type, href = '#', author, title, tags, description, image } = data
+  const { type, path = '#', author, title, tags, description, image } = data
 
   return (
     <Box {...rest}>
@@ -33,7 +33,7 @@ export const BlogCard = (props: BlogCardProps) => {
       <Box mt="6" padding="0 20px">
         <BlogMeta tags={tags} type={type} />
         <Box mb="6">
-          <Box as="a" href={href}>
+          <Box as="a" href={path}>
             <Heading size="md" mt="6" mb="4">
               {title}
             </Heading>

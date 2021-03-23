@@ -4,7 +4,7 @@ type Post = {
   title: string
   description?: string
   image: string
-  href?: string
+  path?: string
   date?: string | Date;
   author?: {
     name: string
