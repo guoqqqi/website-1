@@ -1,11 +1,14 @@
 type Post = {
-  title: string;
-  date: Date | string;
-  content: string;
-  path: string;
-  cover?: string;
-  logo?: string;
-  url?: string;
-  desc?: string;
-  speaker?: string;
+  type: BlogMetaProps['type']
+  tags: string[]
+  title: string
+  description?: string
+  image: string
+  href?: string
+  date?: string | Date;
+  author?: {
+    name: string
+    image: string
+    title: string
+  }
 }
