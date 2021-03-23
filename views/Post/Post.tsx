@@ -121,7 +121,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                 <h1>{data.title}</h1>
                 <SInner>
                   <div className="left">
-                    <img src={data.avatar ? data.avatar : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"} alt="" />
+                    <img src={data.avatar ? data.avatar : "//img.88icon.com/download/jpg/20200910/f9256155491e54bf5e99bf29eece0156_512_512.jpg!88bg"} alt="" />
                     <div>
                       <p>
                         <a href={data.href}>{data.author}</a>

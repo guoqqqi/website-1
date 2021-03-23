@@ -1,8 +1,8 @@
 ---
 title: "初探 Kubernetes Service APIs"
-avatar: "https://avatars.githubusercontent.com/u/25628854?s=460&u=775adf495b52dd8424de0f2857f89c87a7a29dbd&v=4"
+avatar: "https://avatars.githubusercontent.com/u/4413028?s=460&u=e140a6d2bf19c426da6498b8888edc96509be649&v=4"
 author: "金卫"
-href: "https://github.com/starsz"
+href: "https://github.com/gxthrj"
 date: 2020-12-18
 ---  
 

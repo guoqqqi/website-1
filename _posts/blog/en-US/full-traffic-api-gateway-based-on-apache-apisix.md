@@ -1,6 +1,6 @@
 ---
 title: "Full-traffic API gateway based on Apache APISIX"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: ""
 date: 2020-12-14
 ---
 

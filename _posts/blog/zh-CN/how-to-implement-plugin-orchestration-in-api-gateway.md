@@ -1,6 +1,6 @@
 ---
 title: "如何在 Apache APISIX 上实现插件编排"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: ""
 date: 2020-12-14
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "支流科技与吉利汽车：产业数字化，「智造」未来"
 date: 2020-12-18
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: ""
 author: ""
 href: ""
 ---  

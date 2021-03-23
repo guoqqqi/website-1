@@ -1,6 +1,6 @@
 ---
 title: "Apache APISIX: How to implement plugin orchestration in API Gateway"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: ""
 date: 2020-12-14
 ---
 
