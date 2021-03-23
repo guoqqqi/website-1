@@ -1,6 +1,6 @@
 ---
 title: "使用 Cypress 让产品持续稳定交付"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: "https://avatars.githubusercontent.com/u/31329157?s=460&u=e81b4bb4db2be162c1fcac6d188f5b0f82f71920&v=4"
 author: "孙毅"
 href: "https://github.com/LiteSun"
 date: 2021-02-07

@@ -134,7 +134,6 @@ export const SSection2 = styled.div`
 `;
 
 export const SBox2 = styled.div`
-  min-height: 591px;
   padding: 0 1rem 1rem;
 `;
 
@@ -231,7 +230,8 @@ export const SArticle = styled.article`
 
   .iframeBox {
     width: 100%;
-    height: 900px
+    height: 600px;
+    padding-bottom: 2em;
   }
 
   @media (max-width: 1300px) {

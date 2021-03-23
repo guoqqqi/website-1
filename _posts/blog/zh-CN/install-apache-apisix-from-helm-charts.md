@@ -1,6 +1,6 @@
 ---
 title: "使用 Helm Charts 安装 Apache APISIX"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: "https://avatars.githubusercontent.com/u/10428333?s=460&u=f48ef50c5621a1616a3ede50221547e34270e061&v=4"
 author: "张超"
 href: "https://github.com/tokers"
 date: 2021-02-26

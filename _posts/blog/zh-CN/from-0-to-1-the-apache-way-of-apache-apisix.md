@@ -1,8 +1,8 @@
 ---
 title: "从 0 到 1：Apache APISIX 的 Apache 之路"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: "https://avatars.githubusercontent.com/u/26448043?s=460&u=9a51a2ee99658ea30918952675fdffeca8b5dc4c&v=4"
 author: "温铭"
-href: ""
+href: "https://github.com/moonming"
 date: 2019-12-26
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "A first look at Kubernetes Service APIs"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: "https://avatars.githubusercontent.com/u/25628854?s=460&u=775adf495b52dd8424de0f2857f89c87a7a29dbd&v=4"
 author: "Jin Wei"
-href: ""
+href: "https://github.com/starsz"
 date: 2020-12-18
 ---  
 
