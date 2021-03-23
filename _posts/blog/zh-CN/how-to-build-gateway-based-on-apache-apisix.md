@@ -1,6 +1,6 @@
 ---
 title: "贝壳找房：如何基于 Apache APISIX 搭建网关"
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+avatar: ""
 author: "王辉"
 href: ""
 date: 2020-12-11
