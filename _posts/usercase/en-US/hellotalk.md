@@ -1,9 +1,10 @@
 ---
 title: "HelloTalk: A Global Exploration Path Based on OpenResty and Apache APISIX"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+author: "Li Ling"
+href: ""
 date: 2020-05-07 
 ---  
-
-Author: Li Ling
 
 <div style="text-align: center">
   <video controls src="https://opentalk-blog.b0.upaiyun.com/prod/2019-12-19/fe6c7e341b5ee7ae72473de56ef0fd3b.mp4" style="width: 100%"></video>

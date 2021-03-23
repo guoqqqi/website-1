@@ -1,5 +1,8 @@
 ---
 title: "Tencent Cloud: Why did you choose Apache APISIX to implement k8s ingress controller?"
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+author: ""
+href: ""
 date: 2020-05-07 
 ---  
 

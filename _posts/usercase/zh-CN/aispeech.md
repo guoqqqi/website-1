@@ -1,9 +1,10 @@
 ---
 title: "思必驰：为什么我们重新写了一个 k8s ingress controller？"
 date: 2020-05-07 
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+author: "金卫"
+href: ""
 ---  
-
-作者：金卫
 
 **前言**
 

@@ -20,25 +20,23 @@ const PostList: NextPage<Props, any> = ({ t, type, list = [] }) => {
   return (
     <SWrapper>
       <NextSeo title={t(`common:${type}`)} />
-      <div style={{ borderTop: "2px solid #F7FAFC" }}>
-        <Box as="section" py="24">
-          <Box maxW={{ base: 'xl', md: '2xl', lg: '7xl' }} mx="auto" px={{ base: '6', md: '8' }}>
-            <Box textAlign="center" maxW="600px" mx="auto">
-              <Heading size="2xl" fontWeight="extrabold" letterSpacing="tight">
-                {t(`common:${type}`)}
-              </Heading>
-              <Text mt="4" fontSize="lg" color={mode('gray.600', 'gray.400')}>
-                {t("about:about-box-desc4")}
-              </Text>
-            </Box>
-            <SimpleGrid mt="14" columns={{ base: 1, lg: 3 }} spacing="14">
-              {list.map((item, index) => (
-                <BlogCard boxShadow="base" rounded="md" key={index} data={item} />
-              ))}
-            </SimpleGrid>
+      <Box as="section" py="24" borderTop="2px solid #F7FAFC">
+        <Box maxW={{ base: 'xl', md: '2xl', lg: '7xl' }} mx="auto" px={{ base: '6', md: '8' }}>
+          <Box textAlign="center" maxW="600px" mx="auto">
+            <Heading size="2xl" fontWeight="extrabold" letterSpacing="tight">
+              {t(`common:${type}`)}
+            </Heading>
+            <Text mt="4" fontSize="lg" color={mode('gray.600', 'gray.400')}>
+              {t("about:about-box-desc4")}
+            </Text>
           </Box>
+          <SimpleGrid mt="14" columns={{ base: 1, lg: 3 }} spacing="14">
+            {list.map((item, index) => (
+              <BlogCard boxShadow="base" rounded="md" key={index} data={item} />
+            ))}
+          </SimpleGrid>
         </Box>
-      </div>
+      </Box>
     </SWrapper>
   );
 };

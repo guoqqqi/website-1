@@ -1,9 +1,10 @@
 ---
 title: "HelloTalk：基于 OpenResty 和 Apache APISIX 的全球化探索之路"
 date: 2020-05-07 
+avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSao9hvCLqBfgE5WDNqILk4MZJA00YvgvhFpQ&usqp=CAU"
+author: "李凌"
+href: ""
 ---  
-
-作者：李凌
 
 <div style="text-align: center">
   <video controls src="https://opentalk-blog.b0.upaiyun.com/prod/2019-12-19/fe6c7e341b5ee7ae72473de56ef0fd3b.mp4" style="width: 100%"></video>
