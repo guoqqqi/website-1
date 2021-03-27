@@ -167,7 +167,7 @@ spec:
       servicePort: 80
 ```
 
-Requests whose Host is "foo.org", URI path prefix is "/get" will be seperated into two parts:
+Requests whose Host is "foo.org", URI path prefix is "/get" will be separated into two parts:
 
 + The id parameter which value is 3, 13, 23 or 33 will hit rule2, and forward to foo-canary;
 
