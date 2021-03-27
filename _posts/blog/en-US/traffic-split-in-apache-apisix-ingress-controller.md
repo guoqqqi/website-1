@@ -20,11 +20,11 @@ Ingress Nginx supports the canary release, it’s controlled by an annotation "n
 
 + nginx.ingress.kubernetes.io/canary-by-header
 
-The destination is decided by whether the value of header (indicated by nginx.ingress.kubernetes.io/canary-by-header), the canary app will be routed if the value is "always", otherwise stable app will be routed (value of the header is "never").
+The destination is decided by whether the value of header (indicated by nginx.ingress.kubernetes.io/canary-by-header), the Canary app will be routed if the value is "always", the otherwise stable app will be routed (value of the header is "never").
 
 + nginx.ingress.kubernetes.io/canary-by-header-value
 
-This annotation extends nginx.ingress.kubernetes.io/canary-by-header, now value of the header no longer needs to be "always" or "never".
+This annotation extends nginx.ingress.kubernetes.io/canary-by-header, now the value of the header no longer needs to be "always" or "never".
 
 + nginx.ingress.kubernetes.io/canary-by-header-pattern
 
@@ -36,7 +36,7 @@ Use data field in Cookie header to decide the backend service.
 
 + nginx.ingress.kubernetes.io/canary-weight
 
-Assign weight value between 0 and 100, traffic will be delivered according to this weight, a 0 weight means all traffic will be routed to canary app and 100 weight will route all traffic to stable app.
+Assign weight value between 0 and 100, traffic will be delivered according to this weight, a 0 weight means all traffic will be routed to the canary app and 100 weight will route all traffic to the stable app.
 
 The following YAML snippet proxies requests whose URI path is led by "/get" and the User-Agent matches with the ".*Mozilla.*" pattern to the canary app "foo-canary".
 
@@ -120,13 +120,13 @@ spec:
       weight: 5
 ```
 
-The above case puts ⅔ requests whose Host is "foo.org" and with URI path prefix "/get" to "foo-canary" service, and others to foo.
+The above case puts ⅔ requests whose Host is "foo.org" and with URI path prefix "/get" to "foo-canary" service and others to foo.
 
 The weight for canary service can be tiny for the small scale verification, and enlarge the weight by modifying the ApisixRoute until all traffic routed to the canary service, finishing the release totally.
 
 ### Rules-Based
 
-The [Exprs](https://github.com/apache/apisix-ingress-controller/blob/master/docs/en/latest/concepts/apisix_route.md#advanced-route-features) field in ApisixRoute allows users to configurtion custom route match rules, on the other hand, multiple route rules can be grouped into a single ApisixRoute object, so there is a seamless way to implement the rules based traffic split.
+The [Exprs](https://github.com/apache/apisix-ingress-controller/blob/master/docs/en/latest/concepts/apisix_route.md#advanced-route-features) field in ApisixRoute allows users to configure custom route match rules, on the other hand, multiple route rules can be grouped into a single ApisixRoute object, so there is a seamless way to implement the rules-based traffic split.
 
 ```
 apiVersion: apisix.apache.org/v2alpha1
@@ -175,4 +175,4 @@ Requests whose Host is "foo.org", URI path prefix is "/get" will be separated in
 
 ## Summary
 
-Traffic split (Canary release) in Ingress Nginx supports weight based scheme and header rule based one, but it relys on annoations, which semantic is weak; The Kong way only supports to configure canary release by weight, the scanrios are somewhat narrow, and the configuring is complicated (you need to configure several resources); In contrast, traffic split in Apache APISIX Ingress Controller is flexible and easy to configure, it works well for both the weight based and rule based traffic split scheme.
+Traffic split (Canary release) in Ingress Nginx supports weight-based scheme and header rule-based one, but it relies on annotations, which semantic is weak; The Kong way only supports to configure canary release by weight, the scenarios are somewhat narrow, and the configuring is complicated (you need to configure several resources); In contrast, traffic split in Apache APISIX Ingress Controller is flexible and easy to configure, it works well for both the weight-based and rule-based traffic split scheme.
