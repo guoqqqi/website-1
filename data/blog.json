@@ -2,7 +2,7 @@
   "zh-CN": [
     {
       "title": "Apache APISIX Ingress Controller 中的流量切分",
-      "image": "https://lh6.googleusercontent.com/E_qq-RFIcVBbTFsI8-QTNH7Io5vOXapdQUaAzKE2mYlyvtXUlZEoSd8aVMHAppARmXx9_wgHsgP1CWK_R74MfPV58dLQ71kEcU57DooHKz2LuKb6D6TW9B2_C8rLsm8wHTk2_zZt",
+      "image": "https://api7-website-1301662268.file.myqcloud.com/ingress_controller_cover.png",
       "type": "article",
       "tags": [],
       "date": "2021-03-27",
@@ -124,7 +124,7 @@
   "en-US": [
     {
       "title": "Traffic Split in Apache APISIX Ingress Controller",
-      "image": "https://lh6.googleusercontent.com/E_qq-RFIcVBbTFsI8-QTNH7Io5vOXapdQUaAzKE2mYlyvtXUlZEoSd8aVMHAppARmXx9_wgHsgP1CWK_R74MfPV58dLQ71kEcU57DooHKz2LuKb6D6TW9B2_C8rLsm8wHTk2_zZt",
+      "image": "https://api7-website-1301662268.file.myqcloud.com/ingress_controller_cover.png",
       "type": "article",
       "tags": [],
       "date": "2021-03-27",
