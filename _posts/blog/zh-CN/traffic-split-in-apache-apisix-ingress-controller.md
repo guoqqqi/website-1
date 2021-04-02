@@ -6,7 +6,7 @@ href: "https://github.com/tokers"
 date: 2021-03-27
 ---
 
-流量切分（traffic split）是指将流量按照定义好的规则和比例分摊到多个后端服务，像常见的 API 网关产品（例如 [Apache APISIX](apisix.apache.org)，[Traefik](https://traefik.io/)）、服务网格 Sidecar Proxy（例如 [Envoy](https://envoyproxy.io/)，[linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy)），都提供了流量切分的功能，以此来实现细粒度的 [金丝雀发布](https://blog.getambassador.io/cloud-native-patterns-canary-release-1cb8f82d371a)，[蓝绿部署](https://martinfowler.com/bliki/BlueGreenDeployment.html) 等功能。
+流量切分（traffic split）是指将流量按照定义好的规则和比例分摊到多个后端服务，像常见的 API 网关产品（例如 [Apache APISIX](https://apisix.apache.org/)，[Traefik](https://traefik.io/)）、服务网格 Sidecar Proxy（例如 [Envoy](https://envoyproxy.io/)，[linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy)），都提供了流量切分的功能，以此来实现细粒度的 [金丝雀发布](https://blog.getambassador.io/cloud-native-patterns-canary-release-1cb8f82d371a)，[蓝绿部署](https://martinfowler.com/bliki/BlueGreenDeployment.html) 等功能。
 
 作为 [Kubernetes](https://kubernetes.io/) 集群流量入口，[Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) 自然也需要支持流量切分的功能，在后端应用需要发布时，能够提供逐步切流，回滚的能力，降低应用发布带来的风险。本文先后介绍了 [Ingress Nginx](https://kubernetes.github.io/ingress-nginx/) 和 [Kong Ingress Controller](https://github.com/Kong/kubernetes-ingress-controller) 中提供的流量切分功能（有时也称为金丝雀发布），之后介绍了流量切分在 [Apache APISIX Ingress Controller](https://github.com/apache/apisix-ingress-controller) 中的实现。
 
