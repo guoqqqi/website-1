@@ -8,7 +8,7 @@ export const EN_US_data: BlogData[] = [
     description:
       'Traffic Split is a feature that splits and deliveries traffic to multiple backend services. Solutions like API Gateway (e.g. Apache APISIX and Traefik), Service Mesh (e.g. Istio and Linkerd) are capable of doing traffic splitting and implement functionalities like Canary Release and Blue-Green Deployment.',
     type: 'article',
-    tags: ['Ingress Nginx'],
+    tags: ['Ingress Controller'],
     href: '/en/blog/traffic-split-in-apache-apisix-ingress-controller'
   },
   {
@@ -38,9 +38,9 @@ export const ZH_CN_data: BlogData[] = [
       'https://api7-website-1301662268.file.myqcloud.com/ingress_controller_cover.png',
     title: 'Apache APISIX Ingress Controller 中的流量切分',
     description:
-      '流量切分（traffic split）是指将流量按照定义好的规则和比例分摊到多个后端服务，像常见的 API 网关产品（例如 Apache APISIX，Traefik）、服务网格 Sidecar Proxy（例如 Envoy，linkerd2-proxy），都提供了流量切分的功能，以此来实现细粒度的 金丝雀发布，蓝绿部署 等功能。',
+      '流量切分（traffic split）是指将流量按照定义好的规则和比例分摊到多个后端服务，像常见的 API 网关产品（例如 Apache APISIX，Traefik）、服务网格 Sidecar Proxy（例如 Envoy，linkerd2-proxy），都提供了流量切分的功能，以此来实现细粒度的金丝雀发布，蓝绿部署等功能。',
     type: '博客',
-    tags: ['Ingress Nginx'],
+    tags: ['Ingress Controller'],
     href: '/zh/blog/traffic-split-in-apache-apisix-ingress-controller'
   },
   {
