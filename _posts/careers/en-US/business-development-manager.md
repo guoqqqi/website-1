@@ -1,0 +1,27 @@
+---
+title: Business Development Manager
+date: 2021-06-22 21:52:00
+---
+
+## Content
+
+- According to the company's business development needs, find and explore cooperation resources that are beneficial to the company, and evaluate the cooperability of resources.
+- Responsible for the management and maintenance of business customers, independently and efficiently complete business negotiations, follow-up, contract signing, cooperation landing, contract payment collection and payment, customer relationship maintenance and other work to achieve performance targets.
+- Responsible for the maintenance of business customers, regular collection of audience feedback on the commercial product side and timely feedback to the company for product adjustment and optimization.
+- Pay attention to the dynamic sales situation of business customers, sales data collection statistics and analysis. Collecting customer needs, providing professional support and services to customers, and making rationalized suggestions for their sales and operation situations.
+- Complete other tasks as assigned by superiors.
+
+## Requirements
+
+1. Bachelor's degree or above, good remote collaboration skills and the ability to use channel resources effectively.
+2. Understanding of open source culture and familiarity with products such as API gateways and load balancing products is a plus.
+3. Excellent business negotiation, coordination and marketing skills, able to complete marketing work independently. Ability to resist pressure, a sense of teamwork and strong execution.
+4. Flexible, meticulous, logical thinker with the ability to deal with emergencies.
+
+## Additional
+
+We're a remote work company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack and Google Docs.
+
+### Contact
+
+[wenming@api7.ai](mailto:wenming@api7.ai)
