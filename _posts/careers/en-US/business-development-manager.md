@@ -3,7 +3,7 @@ title: Business Development Manager
 date: 2021-06-22 21:52:00
 ---
 
-## Content
+## Responsibilities
 
 - According to the company's business development needs, find and explore cooperation resources that are beneficial to the company, and evaluate the cooperability of resources.
 - Responsible for the management and maintenance of business customers, independently and efficiently complete business negotiations, follow-up, contract signing, cooperation landing, contract payment collection and payment, customer relationship maintenance and other work to achieve performance targets.
@@ -24,4 +24,4 @@ We're a remote work company with employees in 6 cities across China, and we do a
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)
