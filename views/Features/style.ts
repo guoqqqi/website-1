@@ -71,6 +71,21 @@ export const SMenu = styled.div`
   a:hover {
     text-decoration: none;
   }
+
+  .newmenu {
+    padding: 0 380px;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+
+    li {
+      color: #455D82;
+    }
+  }
 `
 
 export const SShowBox = styled.div`

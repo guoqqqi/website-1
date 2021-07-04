@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NextPage } from 'next';
 import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
 
 import { withTranslation } from "../../i18n";
 import { SWrapper, SSection, SMenu, SShowBox } from "./style";
-import data from "../../data/products/api7/features.json";
+import features from "../../data/products/api7/features.json";
 
 type Props = {
   t: TFunction;
@@ -13,6 +13,14 @@ type Props = {
 };
 
 const Features: NextPage<Props, any> = ({ t, list = [] }) => {
+  const [currentHeight, setCurrentHeight] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setCurrentHeight(document.documentElement.scrollTop);
+    })
+  }, [])
+
   return (
     <SWrapper>
       <NextSeo title={t(`common:features`)} />
@@ -23,19 +31,31 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
           <p>API7 新一代云原声，高性能，可扩展的微服务 API 网关</p>
         </div>
         <SMenu>
-          <ul>
-            <li><a href="">API 和服务治理</a></li>
-            <li><a href="">安全</a></li>
-            <li><a href="">可观测性</a></li>
-            <li><a href="">性能和高可用</a></li>
-            <li><a href="">运维</a></li>
-          </ul>
+          {
+            currentHeight > 370
+              ?
+              <ul className="newmenu">
+                {list.map((item, index) => {
+                  return (
+                    <li key={index}><a href={`#${item.title}`}>{item.title}</a></li>
+                  )
+                })}
+              </ul>
+              :
+              <ul>
+                {list.map((item, index) => {
+                  return (
+                    <li key={index}><a href={`#${item.title}`}>{item.title}</a></li>
+                  )
+                })}
+              </ul>
+          }
         </SMenu>
       </SSection>
       <SShowBox>
         {list.map((item) => (
           <div className="sectionBox" key={item.title}>
-            <h2>{item.title}</h2>
+            <h2 id={item.title}>{item.title}</h2>
             <div className="itemBox">
               {(item.list).map((item) => (
                 <div className="itemBoxList" key={item.title}>
@@ -53,6 +73,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
           </div>
         ))}
       </SShowBox>
+      <div id="footer"></div>
     </SWrapper>
   );
 };
@@ -60,7 +81,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
 Features.getInitialProps = async (context) => {
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data["features"][lng];
+  const posts = features[lng];
 
   return {
     namespacesRequired: ["common"],
