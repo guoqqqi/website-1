@@ -164,6 +164,7 @@ export const SShowBox = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
 
   .itemBoxList {
@@ -171,9 +172,24 @@ export const SShowBox = styled.div`
     color: #68747F;
     padding-right: 30px;
     margin-top: 40px;
+    margin-bottom: 50px;
 
     ul {
       list-style-type: none;
+
+      li {
+        line-height: 1.8;
+        ::before {
+          content: "";
+          width: 6px;
+          height: 6px;
+          display: inline-block;
+          border-radius: 50%;
+          background: #7a79a1;
+          vertical-align: middle;
+          margin-right: 14px;
+        }
+      }
     }
   }
 
