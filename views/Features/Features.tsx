@@ -31,25 +31,13 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
           <p>API7 新一代云原声，高性能，可扩展的微服务 API 网关</p>
         </div>
         <SMenu>
-          {
-            currentHeight > 370
-              ?
-              <ul className="newmenu">
-                {list.map((item, index) => {
-                  return (
-                    <li key={index}><a href={`#${item.title}`}>{item.title}</a></li>
-                  )
-                })}
-              </ul>
-              :
-              <ul>
-                {list.map((item, index) => {
-                  return (
-                    <li key={index}><a href={`#${item.title}`}>{item.title}</a></li>
-                  )
-                })}
-              </ul>
-          }
+          <ul className={currentHeight > 370 && "newmenu"}>
+            {list.map((item, index) => {
+              return (
+                <li key={index}><a href={`#${item.title}`}>{item.title}</a></li>
+              )
+            })}
+          </ul>
         </SMenu>
       </SSection>
       <SShowBox>
