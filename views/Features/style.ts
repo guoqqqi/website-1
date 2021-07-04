@@ -39,10 +39,31 @@ export const SSection = styled.section`
     }
 
     p {
-      width: 40%;
+      width: 50%;
       font-size: 28px;
       font-weight: 400;
       color: #F2F2F2;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .titleBox {
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+
+  @media (max-width: 780px) {
+    .titleBox {
+      h1 {
+        font-size: 26px;
+      }
+
+      p {
+        width: 100%;
+        font-size: 18px;
+      }
     }
   }
 `
@@ -50,14 +71,18 @@ export const SSection = styled.section`
 export const SMenu = styled.div`
   position: absolute;
   width: 100%;
-  margin-top: 90px;
+  top: 400px;
+
+  @media (max-width: 1000px) {
+    top: 380px;
+  }
 
   ul {
     width: 50%;
     display: flex;
     margin: 0 auto;
     list-style: none;
-    align-items: center;
+    align-items: flex-start;
   }
 
   li {
@@ -86,12 +111,40 @@ export const SMenu = styled.div`
       color: #455D82;
     }
   }
+
+  @media (max-width: 1000px) {
+    ul {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 780px) {
+    ul {
+      width: 100%;
+      padding: 10px;
+    }
+    ul, li {
+      font-size: 12px;
+    }
+
+    .newmenu {
+      display: flex;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    ul {
+      display: none;
+    }
+  }
 `
 
 export const SShowBox = styled.div`
   display: block;
   margin: 0 auto;
   max-width: 1300px;
+  padding: 0 40px;
   
   h3 {
     font-size: 24px;
@@ -102,17 +155,9 @@ export const SShowBox = styled.div`
 
   .sectionBox {
     width: 100%;
+    padding: 20px 0;
     margin-bottom: 40px;
-    padding: 20px 40px;
-    &::after {
-      position: absolute;
-      margin: 0 auto;
-      margin-top: 10px;
-      width: 1300px;
-      height: 2px;
-      border: 1px solid #BDBDBD;
-      content: '';
-    }
+    border-bottom: 2px solid #BDBDBD;
   }
 
   .itemBox {
@@ -123,9 +168,33 @@ export const SShowBox = styled.div`
   .itemBoxList {
     width: 25%;
     color: #68747F;
+    padding-right: 15px;
 
     ul {
       list-style-type: none;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .itemBox {
+      display: block;
+
+      ul {
+        width: 100%;
+      }
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .itemBoxList {
+      width: 100%;
+
+      h3 {
+        font-size: 18px;
+        margin-top: 20px;
+      }
     }
   }
 `
