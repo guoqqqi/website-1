@@ -17,6 +17,10 @@ export const SSection = styled.section`
   width: 100%;
   height: 400px;
 
+  @media (max-width: 350px) {
+    height: 350px;
+  }
+
   .background {
     position: absolute;
     width: 100%;
@@ -112,9 +116,19 @@ export const SMenu = styled.div`
     }
   }
 
+  @media (max-width: 1300px) {
+    .newmenu {
+      padding: 0 250px;
+    }
+  }
+
   @media (max-width: 1000px) {
     ul {
       width: 70%;
+    }
+
+    .newmenu {
+      padding: 0 100px;
     }
   }
 
@@ -132,7 +146,7 @@ export const SMenu = styled.div`
       padding: 10px;
     }
   }
-
+  
   @media (max-width: 450px) {
     ul {
       display: none;
