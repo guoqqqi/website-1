@@ -10,7 +10,6 @@ export const SWrapper = styled.div`
     font-size: 28px;
     font-weight: 500;
     color: #3E464C;
-    margin-bottom: 30px;
   }
 `
 
@@ -103,6 +102,7 @@ export const SMenu = styled.div`
     width: 100%;
     height: 50px;
     position: fixed;
+    align-items: center;
     z-index: 10;
     background-color: #FFFFFF;
     box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
@@ -162,13 +162,15 @@ export const SShowBox = styled.div`
 
   .itemBox {
     display: flex;
-    margin: 20px auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
 
   .itemBoxList {
     width: 25%;
     color: #68747F;
-    padding-right: 15px;
+    padding-right: 30px;
+    margin-top: 40px;
 
     ul {
       list-style-type: none;
