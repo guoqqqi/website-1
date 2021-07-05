@@ -68,6 +68,10 @@ export const SSection = styled.section`
         font-size: 18px;
       }
     }
+
+    .titleBox {
+      padding-left: 20px;
+    }
   }
 `
 
@@ -158,11 +162,11 @@ export const SShowBox = styled.div`
   display: block;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 0 0 100px;
+  padding: 0 40px;
 
-  @media (max-width: 420px) {
+  @media (max-width: 780px) {
     padding-top: 20px;
-    padding: 20px 40px 0;
+    padding: 20px 0 0;
   }
 
   .sectionBox:last-child {
@@ -179,10 +183,9 @@ export const SShowBox = styled.div`
   .sectionBox {
     width: 100%;
     padding: 20px 0;
-    margin-bottom: 40px;
-    border-bottom: 2px solid #BDBDBD;
 
     h2 {
+      padding-left: 60px;
       padding-top: 70px;
       margin-top: -70px;
     }
@@ -192,7 +195,10 @@ export const SShowBox = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-left: 60px;
     margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bdbdbd57;
   }
 
   .itemBoxList {
@@ -203,6 +209,7 @@ export const SShowBox = styled.div`
     margin-bottom: 50px;
 
     ul {
+      width: 80%;
       list-style-type: none;
 
       li {
@@ -222,9 +229,15 @@ export const SShowBox = styled.div`
   }
 
   @media (max-width: 780px) {
+    .sectionBox {
+      h2 {
+        padding-left: 20px;
+      }
+    }
+
     .itemBox {
       display: block;
-
+      margin-left: 20px;
 
       ul {
         width: 100%;

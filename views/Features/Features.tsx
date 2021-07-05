@@ -19,7 +19,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
     window.addEventListener('scroll', () => {
       setCurrentHeight(document.documentElement.scrollTop);
     })
-  }, [])
+  }, []);
 
   return (
     <SWrapper>
