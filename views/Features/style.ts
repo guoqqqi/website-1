@@ -32,7 +32,7 @@ export const SSection = styled.section`
   .titleBox {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 100px 0;
+    padding: 100px 100px 0;
 
     h1 {
       font-size: 36px;
@@ -42,7 +42,7 @@ export const SSection = styled.section`
     }
 
     p {
-      width: 50%;
+      width: 100%;
       font-size: 28px;
       font-weight: 400;
       color: #F2F2F2;
@@ -59,6 +59,8 @@ export const SSection = styled.section`
 
   @media (max-width: 780px) {
     .titleBox {
+      padding: 80px 20px 0;
+
       h1 {
         font-size: 26px;
       }
@@ -68,20 +70,20 @@ export const SSection = styled.section`
         font-size: 18px;
       }
     }
-
-    .titleBox {
-      padding-left: 20px;
-    }
   }
 `
 
 export const SMenu = styled.div`
   position: absolute;
   width: 100%;
-  top: 400px;
+  top: 390px;
 
   @media (max-width: 1000px) {
-    top: 380px;
+    top: 375px;
+  }
+
+  @media (max-width: 780px) {
+    top: 377px;
   }
 
   ul {
@@ -93,11 +95,23 @@ export const SMenu = styled.div`
   }
 
   li {
+    padding: 3.5px;
     text-align: center;
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 400;
     width: 20%;
+
+    a {
+      width: 100%;
+    }
+  }
+
+  .selected {
+    border-bottom: 2px solid #2474b5;
+    a {
+      color: #2474b5 !important;
+    }
   }
 
   a:hover {
@@ -126,7 +140,7 @@ export const SMenu = styled.div`
     }
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1150px) {
     ul {
       width: 70%;
     }
@@ -151,9 +165,17 @@ export const SMenu = styled.div`
     }
   }
   
-  @media (max-width: 450px) {
+  @media (max-width: 480px) {
     ul {
       display: none;
+    }
+
+    .newmenu {
+      justify-content: space-evenly;
+
+      li {
+        width: auto;
+      }
     }
   }
 `
@@ -167,10 +189,6 @@ export const SShowBox = styled.div`
   @media (max-width: 780px) {
     padding-top: 20px;
     padding: 20px 0 0;
-  }
-
-  .sectionBox:last-child {
-    border-bottom: none;
   }
   
   h3 {
@@ -199,6 +217,12 @@ export const SShowBox = styled.div`
     margin-bottom: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #bdbdbd57;
+  }
+
+  .sectionBox:last-child {
+    .itemBox {
+      border-bottom: none;
+    }
   }
 
   .itemBoxList {

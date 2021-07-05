@@ -18,8 +18,18 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       setCurrentHeight(document.documentElement.scrollTop);
-    })
+    });
+    onSelected(0);
   }, []);
+
+  const onSelected = (e: number) => {
+    const selected = document.querySelector('.selected');
+    const target = document.getElementById(`unActive_${e}`);
+    if (selected) {
+      selected.classList.remove('selected');
+    }
+    target.classList.add('selected');
+  }
 
   return (
     <SWrapper>
@@ -27,14 +37,14 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
       <SSection>
         <div className="background"></div>
         <div className="titleBox">
-          <h1>API7 功能展示</h1>
+          <h1>API7 功能特性</h1>
           <p>API7 为您提供生产可用的七层全流量处理平台</p>
         </div>
         <SMenu>
           <ul className={currentHeight > 370 && "newmenu"}>
             {list.map((item, index) => {
               return (
-                <li key={index}><a href={`#${item.title}`}>{item.title}</a></li>
+                <li id={`unActive_${index}`} key={index}><a href={`#${item.title}`} onClick={() => { onSelected(index) }}>{item.title}</a></li>
               )
             })}
           </ul>
