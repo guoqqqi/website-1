@@ -157,11 +157,12 @@ export const SMenu = styled.div`
 export const SShowBox = styled.div`
   display: block;
   margin: 0 auto;
-  max-width: 1280px;
-  padding: 0 40px;
+  max-width: 1200px;
+  padding: 0 0 0 100px;
 
   @media (max-width: 420px) {
     padding-top: 20px;
+    padding: 20px 40px 0;
   }
 
   .sectionBox:last-child {

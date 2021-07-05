@@ -13,7 +13,7 @@
             "title": "HTTP 3",
             "href": ""
           },{
-            "title": "TLS / HTTPS",
+            "title": "TLS/HTTPS",
             "href": ""
           },{
             "title": "MQTT",
@@ -25,7 +25,7 @@
             "title": "UDP",
             "href": ""
           },{
-            "title": "gRPC / gRPC -> HTTP",
+            "title": "gRPC/gRPC -> HTTP",
             "href": ""
           },{
             "title": "Websocket",
@@ -59,11 +59,11 @@
             "href": ""
           },
           {
-            "title": "鲲鹏(通过华为云认证)",
+            "title": "鲲鹏（通过华为云认证）",
             "href": ""
           },
           {
-            "title": "AWS、GCP、阿里云、腾讯云 等公有云",
+            "title": "AWS、GCP、阿里云、腾讯云等公有云",
             "href": ""
           }
         ]
@@ -96,7 +96,7 @@
             "href": ""
           },
           {
-            "title": "支持IPv6",
+            "title": "支持 IPv6",
             "href": ""
           },
           {
@@ -104,7 +104,7 @@
             "href": ""
           },
           {
-            "title": "路由存活时间( TTL)",
+            "title": "路由存活时间（TTL）",
             "href": ""
           },
           {
@@ -125,7 +125,7 @@
             "href": ""
           },
           {
-            "title": "Chash(一致性哈希)",
+            "title": "Chash（一致性哈希）",
             "href": ""
           },
           {
@@ -133,7 +133,7 @@
             "href": ""
           },
           {
-            "title": "Sticky Session(会话保持)",
+            "title": "Sticky Session（会话保持）",
             "href": ""
           },
           {
@@ -192,11 +192,11 @@
         "title": "服务发现和注册",
         "list": [
           {
-            "title": "默认 etcd，并支持 etcd cluster",
+            "title": "默认 ETCD，并支持 ETCD 集群",
             "href": ""
           },
           {
-            "title": "consul",
+            "title": "Consul",
             "href": ""
           },
           {
@@ -217,7 +217,7 @@
         "title": "容错和降级",
         "list": [
           {
-            "title": "限流 / 集群限流",
+            "title": "限流、集群限流",
             "href": ""
           },
           {
@@ -308,7 +308,7 @@
             "href": ""
           },
           {
-            "title": "插件编排(低代码)",
+            "title": "插件编排（低代码）",
             "href": ""
           },
           {
@@ -338,7 +338,7 @@
               "title": "SSL 证书管理",
               "href": ""
             },{
-              "title": "通过 admin API key 和 ip 限制来控制访问",
+              "title": "通过 admin API key 和 IP 限制来控制访问",
               "href": ""
             }
           ]
@@ -389,7 +389,7 @@
               "title": "JWT",
               "href": ""
             },{
-              "title": "API 签名校验(HMAC)",
+              "title": "API 签名校验（HMAC）",
               "href": ""
             },{
               "title": "OAuth2",
@@ -637,7 +637,7 @@
         "title": "",
         "list": [
           {
-            "title": "HTTP 1.1/HTTP 2",
+            "title": "",
             "href": ""
           }
         ]

@@ -51,7 +51,8 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
                   <ul>
                     {item.list.map((item) => (
                       <li key={item.title}>
-                        <a href={item.href}>{item.title}</a>
+                        {item.href !== "" && <a href={item.href}>{item.title}</a>}
+                        {item.href === "" && <span>{item.title}</span>}
                       </li>
                     ))}
                   </ul>
