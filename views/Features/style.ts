@@ -30,9 +30,9 @@ export const SSection = styled.section`
   }
 
   .titleBox {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 40px 0;
+    padding: 80px 100px 0;
 
     h1 {
       font-size: 36px;
