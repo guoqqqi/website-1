@@ -28,7 +28,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
         <div className="background"></div>
         <div className="titleBox">
           <h1>API7 功能展示</h1>
-          <p>API7 新一代云原声，高性能，可扩展的微服务 API 网关</p>
+          <p>API7 为您提供生产可用的七层全流量处理平台</p>
         </div>
         <SMenu>
           <ul className={currentHeight > 370 && "newmenu"}>

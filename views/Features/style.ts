@@ -17,7 +17,7 @@ export const SSection = styled.section`
   width: 100%;
   height: 400px;
 
-  @media (max-width: 350px) {
+  @media (max-width: 420px) {
     height: 350px;
   }
 
@@ -30,7 +30,7 @@ export const SSection = styled.section`
   }
 
   .titleBox {
-    max-width: 1300px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 80px 40px 0;
 
@@ -90,7 +90,7 @@ export const SMenu = styled.div`
 
   li {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: #FFFFFF;
     font-weight: 400;
     width: 20%;
@@ -135,10 +135,10 @@ export const SMenu = styled.div`
   @media (max-width: 780px) {
     ul {
       width: 100%;
-      padding: 10px;
+      padding: 0 0 10px;
     }
     ul, li {
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .newmenu {
@@ -157,8 +157,16 @@ export const SMenu = styled.div`
 export const SShowBox = styled.div`
   display: block;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1280px;
   padding: 0 40px;
+
+  @media (max-width: 420px) {
+    padding-top: 20px;
+  }
+
+  .sectionBox:last-child {
+    border-bottom: none;
+  }
   
   h3 {
     font-size: 24px;
@@ -172,6 +180,11 @@ export const SShowBox = styled.div`
     padding: 20px 0;
     margin-bottom: 40px;
     border-bottom: 2px solid #BDBDBD;
+
+    h2 {
+      padding-top: 70px;
+      margin-top: -70px;
+    }
   }
 
   .itemBox {
@@ -182,7 +195,7 @@ export const SShowBox = styled.div`
   }
 
   .itemBoxList {
-    width: 25%;
+    width: 33%;
     color: #68747F;
     padding-right: 30px;
     margin-top: 40px;
@@ -211,6 +224,7 @@ export const SShowBox = styled.div`
     .itemBox {
       display: block;
 
+
       ul {
         width: 100%;
       }
@@ -222,11 +236,19 @@ export const SShowBox = styled.div`
 
     .itemBoxList {
       width: 100%;
+      margin: 20px 0;
 
       h3 {
         font-size: 18px;
-        margin-top: 20px;
+        margin: 20px 0 10px;
       }
+    }
+  }
+
+  @media (max-width: 420px) {
+    .sectionBox {
+      padding-bottom: 0;
+      margin-bottom: 20px;
     }
   }
 `
