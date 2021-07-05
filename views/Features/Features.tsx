@@ -80,7 +80,8 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
 Features.getInitialProps = async (context) => {
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = features[lng];
+  // 添加英文版之后将 84 行“zh-CN“更换为 lng
+  const posts = features["zh-CN"];
 
   return {
     namespacesRequired: ["common"],
