@@ -19,8 +19,26 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
     window.addEventListener('scroll', () => {
       setCurrentHeight(document.documentElement.scrollTop);
     });
-    onSelected(0);
-  }, []);
+    autoMenuSelected();
+  }, [currentHeight]);
+
+  const autoMenuSelected = () => {
+    if (currentHeight < 1994) {
+      onSelected(0);
+    }
+    if (currentHeight >= 1994) {
+      onSelected(1);
+    }
+    if (currentHeight >= 2758) {
+      onSelected(2);
+    }
+    if (currentHeight >= 3132) {
+      onSelected(3);
+    }
+    if (currentHeight >= 3672) {
+      onSelected(4);
+    }
+  };
 
   const onSelected = (e: number) => {
     const selected = document.querySelector('.selected');

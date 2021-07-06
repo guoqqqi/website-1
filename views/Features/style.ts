@@ -16,6 +16,7 @@ export const SWrapper = styled.div`
 export const SSection = styled.section`
   width: 100%;
   height: 400px;
+  font-family: inherit;
 
   @media (max-width: 420px) {
     height: 350px;
@@ -36,7 +37,7 @@ export const SSection = styled.section`
 
     h1 {
       font-size: 36px;
-      font-weight: 400;
+      font-weight: 600;
       color: #FFFFFF;
       margin-bottom: 30px;
     }
@@ -45,7 +46,7 @@ export const SSection = styled.section`
       width: 100%;
       font-size: 28px;
       font-weight: 400;
-      color: #F2F2F2;
+      color: #FFFFFF;
     }
   }
 
