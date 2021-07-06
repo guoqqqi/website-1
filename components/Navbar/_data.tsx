@@ -122,7 +122,7 @@ export const EN_US_Links: Link[] = [
         icon: <MdCompare />
       }, {
         label: "API7 Features",
-        href: "//products/api7/features",
+        href: "/products/api7/features",
         description: "Features list",
         icon: <IoListSharp />
       }
