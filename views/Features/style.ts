@@ -52,8 +52,11 @@ export const SSection = styled.section`
 
   @media (max-width: 850px) {
     .titleBox {
+      h1 {
+        font-size: 30px;
+      }
       p {
-        font-size: 24px;
+        font-size: 20px;
       }
     }
   }
