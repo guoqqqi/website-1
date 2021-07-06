@@ -15,17 +15,17 @@ export const SWrapper = styled.div`
 
 export const SSection = styled.section`
   width: 100%;
-  height: 400px;
+  height: 350px;
   font-family: inherit;
 
   @media (max-width: 420px) {
-    height: 350px;
+    height: 300px;
   }
 
   .background {
     position: absolute;
     width: 100%;
-    height: 350px;
+    height: 300px;
     z-index: -1;
     background: url("/static/images/docs_background.jpg") no-repeat center center / 100%;
   }
@@ -44,7 +44,7 @@ export const SSection = styled.section`
 
     p {
       width: 100%;
-      font-size: 28px;
+      font-size: 22px;
       font-weight: 400;
       color: #FFFFFF;
     }
@@ -77,14 +77,14 @@ export const SSection = styled.section`
 export const SMenu = styled.div`
   position: absolute;
   width: 100%;
-  top: 390px;
+  top: 340px;
 
   @media (max-width: 1000px) {
-    top: 375px;
+    top: 325px;
   }
 
   @media (max-width: 780px) {
-    top: 377px;
+    top: 327px;
   }
 
   ul {
@@ -135,15 +135,15 @@ export const SMenu = styled.div`
     }
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1350px) {
     .newmenu {
       padding: 0 250px;
     }
   }
 
-  @media (max-width: 1150px) {
+  @media (max-width: 1180px) {
     ul {
-      width: 70%;
+      width: 75%;
     }
 
     .newmenu {
@@ -166,7 +166,7 @@ export const SMenu = styled.div`
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 520px) {
     ul {
       display: none;
     }

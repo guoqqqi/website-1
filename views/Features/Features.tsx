@@ -23,19 +23,19 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
   }, [currentHeight]);
 
   const autoMenuSelected = () => {
-    if (currentHeight < 1994) {
+    if (currentHeight < 1944) {
       onSelected(0);
     }
-    if (currentHeight >= 1994) {
+    if (currentHeight >= 1944) {
       onSelected(1);
     }
-    if (currentHeight >= 2758) {
+    if (currentHeight >= 2708) {
       onSelected(2);
     }
-    if (currentHeight >= 3132) {
+    if (currentHeight >= 3082) {
       onSelected(3);
     }
-    if (currentHeight >= 3672) {
+    if (currentHeight >= 3622) {
       onSelected(4);
     }
   };
@@ -59,7 +59,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
           <p>API7 为您提供生产可用的七层全流量处理平台</p>
         </div>
         <SMenu>
-          <ul className={currentHeight > 370 && "newmenu"}>
+          <ul className={currentHeight > 320 && "newmenu"}>
             {list.map((item, index) => {
               return (
                 <li id={`unActive_${index}`} key={index}><a href={`#${item.title}`} onClick={() => { onSelected(index) }}>{item.title}</a></li>
