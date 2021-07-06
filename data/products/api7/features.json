@@ -7,10 +7,10 @@
         "title": "协议支持",
         "list": [
           {
-            "title": "HTTP 1.1/HTTP 2",
+            "title": "HTTP1.1、HTTP/2",
             "href": ""
           },{
-            "title": "HTTP 3",
+            "title": "HTTP/3",
             "href": ""
           },{
             "title": "TLS/HTTPS",
@@ -158,7 +158,7 @@
             "href": ""
           },
           {
-            "title": "新增、修改和删除 HTTP 请求头",
+            "title": "新增、修改或删除 HTTP 请求头",
             "href": ""
           },
           {
@@ -175,7 +175,7 @@
         "title": "响应改写",
         "list": [
           {
-            "title": "新增、修改和删除 HTTP 响应头",
+            "title": "新增、修改或删除 HTTP 响应头",
             "href": ""
           },
           {
@@ -338,7 +338,7 @@
               "title": "SSL 证书管理",
               "href": ""
             },{
-              "title": "通过 admin API key 和 IP 限制来控制访问",
+              "title": "通过 Admin API Key 和 IP 限制来控制访问",
               "href": ""
             }
           ]
@@ -398,7 +398,7 @@
               "title": "SSO",
               "href": ""
             },{
-              "title": "对接 Auth0、okta 等",
+              "title": "对接 Auth0、Okta 等",
               "href": ""
             }
           ]
@@ -438,19 +438,19 @@
           "title": "日志",
           "list": [
             {
-              "title": "kakfa",
+              "title": "Kakfa",
               "href": ""
             },
             {
-              "title": "http logger",
+              "title": "Http Logger",
               "href": ""
             },
             {
-              "title": "tcp logger",
+              "title": "TCP Logger",
               "href": ""
             },
             {
-              "title": "udp logger",
+              "title": "UDP Logger",
               "href": ""
             }
           ]
@@ -548,7 +548,7 @@
           "title": "单机模式",
           "list": [
             {
-              "title": "用 yaml 文件来定义所有规则",
+              "title": "用 YAML 文件来定义所有规则",
               "href": ""
             }
           ]
@@ -566,7 +566,7 @@
           "title": "Helm charts",
           "list": [
             {
-              "title": "更方便 k8s 下的运维",
+              "title": "更方便 K8s 下的运维",
               "href": ""
             }
           ]
