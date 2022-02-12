@@ -45,5 +45,14 @@ export const members: Member[] = [
     twitter: 'https://twitter.com/wusheng1108',
     description: 'Apache Board / Apache SkyWalking Founder',
     type: 'adviser'
+  }, {
+    role: 'Head of Developer Experience',
+    image:
+      'https://avatars.githubusercontent.com/u/752258?v=4',
+    name: 'Nicolas Fränkel',
+    github: 'https://github.com/nfrankel',
+    twitter: 'https://twitter.com/nicolas_frankel',
+    type: 'team',
+    description: ''
   }
 ]
