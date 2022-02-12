@@ -54,5 +54,14 @@ export const members: Member[] = [
     twitter: 'https://twitter.com/nicolas_frankel',
     type: 'team',
     description: ''
+  }, {
+    role: 'Technical Writer',
+    image:
+      'https://avatars.githubusercontent.com/u/74113200?v=4',
+    name: 'Avinal Kumar',
+    github: 'https://github.com/avinal',
+    linkedin: 'https://www.linkedin.com/in/avinal',
+    type: 'team',
+    description: ''
   }
 ]
