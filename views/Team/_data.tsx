@@ -55,6 +55,16 @@ export const members: Member[] = [
     type: 'team',
     description: ''
   }, {
+    role: 'Developer Advocate',
+    image:
+      'https://avatars.githubusercontent.com/u/14247607?v=4',
+    name: 'Bobur Umurzokov',
+    github: 'https://github.com/Boburmirzo',
+    linkedin: 'https://www.linkedin.com/in/bobur-u-147400106/',
+    twitter: 'https://twitter.com/BoburUmurzokov',
+    type: 'team',
+    description: ''
+  }, {
     role: 'Technical Writer',
     image:
       'https://avatars.githubusercontent.com/u/74113200?v=4',
