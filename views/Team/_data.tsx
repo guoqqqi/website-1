@@ -73,5 +73,14 @@ export const members: Member[] = [
     linkedin: 'https://www.linkedin.com/in/avinal',
     type: 'team',
     description: ''
-  }
+  }, { 
+    role: 'Technical Writer',
+    image:
+      'https://avatars.githubusercontent.com/u/62384659?v=4',
+    name: 'Anita Ihuman',
+    github: 'https://github.com/Anita-ihuman',
+    linkedin: 'https://www.linkedin.com/in/anita-ihuman',
+    type: 'team',
+    description: ''
+  }, 
 ]
