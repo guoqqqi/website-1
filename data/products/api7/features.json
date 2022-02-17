@@ -458,7 +458,7 @@
       ]
     },
     {
-      "title": "性能和高可用",
+      "title": "集群和高可用",
       "list": [
         {
           "title": "极致性能",
@@ -493,7 +493,28 @@
               "href": ""
             },
             {
-              "title": "多层网络下自动选择集群",
+              "title": "支持不同集群间权限隔离",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "多层网络",
+          "list": [
+            {
+              "title": "全球化部署，跨网关集群协作",
+              "href": ""
+            },
+            {
+              "title": "拓扑网络下自动选择最优路径",
+              "href": ""
+            },
+            {
+              "title": "自定义多层网络下插件",
+              "href": ""
+            },
+            {
+              "title": "分离式部署，支持原生开源版本",
               "href": ""
             }
           ]
@@ -1045,7 +1066,7 @@
       ]
     },
     {
-      "title": "Performance and High Availability",
+      "title": "Cluster and High Availability",
       "list": [
         {
           "title": "Ultimate Performance",
@@ -1080,7 +1101,28 @@
               "href": ""
             },
             {
-              "title": "Automatic cluster selection under multi-tier networks",
+              "title": "Supports isolation of permissions between different clusters",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Multi-Layer Network",
+          "list": [
+            {
+              "title": "Global deployment, cross-gateway cluster collaboration",
+              "href": ""
+            },
+            {
+              "title": "Automatic selection of optimal paths under topological networks",
+              "href": ""
+            },
+            {
+              "title": "Customized plugins under multilayer networks",
+              "href": ""
+            },
+            {
+              "title": "Separate deployment with native open source version support",
               "href": ""
             }
           ]
