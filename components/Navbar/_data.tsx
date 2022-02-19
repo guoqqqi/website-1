@@ -33,7 +33,7 @@ export const EN_US_Links: Link[] = [
       {
         label: "Usercases",
         href: "/usercases",
-        description: "Stories of the world\'s leading companies and API7 products",
+        description: "Success Stories of the world\'s leading companies",
         icon: <IoGrid />,
       },
     ],
@@ -107,7 +107,7 @@ export const EN_US_Links: Link[] = [
       },
       {
         label: "Careers",
-        description: "Work with us to build the system of the cloud",
+        description: "Work with us to make the connections of the digital world more efficient, reliable and safe. ",
         href: "/careers",
         icon: <MdWeb />,
       },
@@ -157,7 +157,7 @@ export const ZH_CN_Links: Link[] = [
       {
         label: "用户案例",
         href: "/usercases",
-        description: "阅读全球领先企业与深圳支流科技的故事",
+        description: "全球领先企业在 Apache APISIX 上的成功实践",
         icon: <IoGrid />,
       },
     ],
@@ -260,7 +260,7 @@ export const ZH_CN_Links: Link[] = [
       },
       {
         label: "工作机会",
-        description: "与我们一起构建云原生产品",
+        description: "与我们一起构建安全、可靠的 API 连接",
         href: "/careers",
         icon: <MdWeb />,
       },
