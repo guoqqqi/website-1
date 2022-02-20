@@ -31,7 +31,7 @@ export const EN_US_Links: Link[] = [
         icon: <AiOutlineRead />,
       },
       {
-        label: "Usercases",
+        label: "Success Stories",
         href: "/usercases",
         description: "Success Stories of the world\'s leading companies",
         icon: <IoGrid />,
@@ -123,7 +123,7 @@ export const EN_US_Links: Link[] = [
         icon: <MdWeb />,
       },
       {
-        label: "Business Support",
+        label: "Commercial Support",
         description: "Features included in commercial products",
         href: "/business-support",
         icon: <IoHelpBuoy />,
