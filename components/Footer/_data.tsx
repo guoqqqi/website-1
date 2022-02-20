@@ -36,7 +36,7 @@ export const EN_US_links: LinkGroupData[] = [
     title: "Resources",
     links: [
       {
-        label: "Usercases",
+        label: "Success Stories",
         href: "/usercases"
       }, {
         label: "Blog",
