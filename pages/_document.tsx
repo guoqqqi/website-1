@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 import { lngFromReq } from "next-i18next/dist/commonjs/utils";
 export default class MyDocument extends Document {
@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
   render() {
     const { lng = "zh-CN" } = this.props as any;
     return (
-      <html lang={lng}>
+      <Html lang={lng}>
         <Head>
           <meta
             name="google-site-verification"
@@ -61,7 +61,7 @@ gtag('config', 'UA-176821176-3');
           ></script>
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
