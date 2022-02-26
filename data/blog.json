@@ -1,6 +1,38 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 集成 Consul KV，服务发现能力再升级",
+      "image": "https://static.apiseven.com/202108/1645769130815-f23e9e11-ca57-4262-9083-aab5509aa178.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-25",
+      "path": "/zh/blog/integrate-consul-kv-with-apache-apisix"
+    },
+    {
+      "title": "如何使用 Apache APISIX CSRF 安全插件拦截跨站点伪造攻击",
+      "image": "https://static.apiseven.com/202108/1645851777691-94a8bca0-7eeb-494b-af59-017afe4cbdf8.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-23",
+      "path": "/zh/blog/csrf"
+    },
+    {
+      "title": "后端新手如何从 0 到 1 打造一款 Apache APISIX 插件",
+      "image": "https://static.apiseven.com/202108/1645851639861-1eeeb38d-d178-45cb-ac2c-6093a7dab6fa.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-16",
+      "path": "/zh/blog/file-logger"
+    },
+    {
+      "title": "生态扩大进行中！Apache APISIX 集成 Splunk HTTP Event Collector",
+      "image": "https://static.apiseven.com/202108/1645851417092-f20e5074-7892-4a03-a4e8-8603a146ff68.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-10",
+      "path": "/zh/blog/apisix-splunk-integration"
+    },
+    {
       "title": "新插件 forward-auth 已上线，认证功能又多一项选择",
       "image": "https://static.apiseven.com/202108/1643096414141-ccbc33c0-7899-445a-a2f8-b6d5341c44df.jpg",
       "type": "article",
@@ -73,6 +105,14 @@
       "path": "/zh/blog/apisix-integrate-openwhisk-plugin"
     },
     {
+      "title": "捷报频传！Apache APISIX 现已支持对接 Google Cloud Logging",
+      "image": "https://static.apiseven.com/202108/1640155567091-2611f8b8-8181-42d8-8756-e892b3768a8d.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-22",
+      "path": "/zh/blog/apache-apisix-google-cloud"
+    },
+    {
       "title": "两种方式教你在 K8s 中轻松部署 Apache APISIX",
       "image": "https://static.apiseven.com/202108/1639722688448-c6b7135d-1d66-437d-86e3-56ca914d3464.png",
       "type": "article",
@@ -121,6 +161,14 @@
       "path": "/zh/blog/use-apisix-ingress-in-kubesphere"
     },
     {
+      "title": "azure-functions 插件发布，Apache APISIX 支持 Azure Functions 集成",
+      "image": "https://static.apiseven.com/202108/1638431191799-e1202fc7-d3b5-48db-a222-0c70a8b70da0.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-01",
+      "path": "/zh/blog/apache-apisix-azure-fucntions-integration"
+    },
+    {
       "title": "如何在 Kubernetes 集群中使用 Nocalhost 开发 Apache APISIX Ingress Controller",
       "image": "https://static.apiseven.com/202108/1637573217230-936ee05d-be69-41c1-9032-6b83ea43087d.png",
       "type": "article",
@@ -143,6 +191,14 @@
       "tags": [],
       "date": "2021-11-18",
       "path": "/zh/blog/dapr-with-apisix"
+    },
+    {
+      "title": "APISIX-Datadog 插件发布，助力用户提高系统的可观测性",
+      "image": "https://static.apiseven.com/202108/1636955062917-28911d71-0d56-48ec-85e5-a7908195da2f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-12",
+      "path": "/zh/blog/apache-apisix-datadog-integration"
     },
     {
       "title": "浅谈 Apache APISIX 的可观测性",
@@ -483,6 +539,38 @@
   ],
   "en-US": [
     {
+      "title": "Apache APISIX Integrates with Consul KV to Expand Its Capabilities in Service Discovery",
+      "image": "https://static.apiseven.com/202108/1645769130815-f23e9e11-ca57-4262-9083-aab5509aa178.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-25",
+      "path": "/en/blog/integrate-consul-kv-with-apache-apisix"
+    },
+    {
+      "title": "Apache APISIX Enhances API Security by CSRF Plugin",
+      "image": "https://static.apiseven.com/202108/1645851777691-94a8bca0-7eeb-494b-af59-017afe4cbdf8.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-23",
+      "path": "/en/blog/csrf"
+    },
+    {
+      "title": "How did a Beginner Build an Apache APISIX Plugin from 0 to 1",
+      "image": "https://static.apiseven.com/202108/1645851639861-1eeeb38d-d178-45cb-ac2c-6093a7dab6fa.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-16",
+      "path": "/en/blog/file-logger"
+    },
+    {
+      "title": "Integrating Splunk HTTP Event Collector with Apache APISIX",
+      "image": "https://static.apiseven.com/202108/1645851417092-f20e5074-7892-4a03-a4e8-8603a146ff68.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-02-10",
+      "path": "/en/blog/apisix-splunk-integration"
+    },
+    {
       "title": "Forward-auth, Another Choice for Authentication Function",
       "image": "https://static.apiseven.com/202108/1643096414141-ccbc33c0-7899-445a-a2f8-b6d5341c44df.jpg",
       "type": "article",
@@ -513,6 +601,46 @@
       "tags": [],
       "date": "2022-01-21",
       "path": "/en/blog/apisix-xrpc-details-and-miltilingual"
+    },
+    {
+      "title": "Using Apache APISIX and Authing to implement Centralized Authentication Management",
+      "image": "https://static.apiseven.com/202108/1641274764710-e6f9fe4e-01de-4c7d-b465-fab4202a6475.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-04",
+      "path": "/en/blog/apisix-authing-integration"
+    },
+    {
+      "title": "Apache APISIX integrates with Open Policy Agent to enrich its ecosystem",
+      "image": "https://static.apiseven.com/202108/1640333490845-38542a3e-5d3a-4960-b11f-69ce3a61f7fc.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-24",
+      "path": "/en/blog/apache-apisix-opa-integration"
+    },
+    {
+      "title": "Apache APISIX Integrates with Google Cloud Logging to Improve Log Processing",
+      "image": "https://static.apiseven.com/202108/1640155567091-2611f8b8-8181-42d8-8756-e892b3768a8d.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-22",
+      "path": "/en/blog/apache-apisix-google-cloud"
+    },
+    {
+      "title": "Apache APISIX's integration with Azure Serverless",
+      "image": "https://static.apiseven.com/202108/1638431191799-e1202fc7-d3b5-48db-a222-0c70a8b70da0.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-01",
+      "path": "/en/blog/apache-apisix-azure-fucntions-integration"
+    },
+    {
+      "title": "Cloud Monitoring with Datadog in Apache APISIX",
+      "image": "https://static.apiseven.com/202108/1636955062917-28911d71-0d56-48ec-85e5-a7908195da2f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-12",
+      "path": "/en/blog/apache-apisix-datadog-integration"
     },
     {
       "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
