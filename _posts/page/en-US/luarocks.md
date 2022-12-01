@@ -17,7 +17,7 @@ $ luarocks install kong --server https://luarocks.cn
 此外，你可以通过修改 LuaRocks 的配置文件，如 `~/.luarocks/config.lua` 和 `~/.luarocks/upload_config.lua` （分别用于下载和上传），来无缝使用 luarocks.cn 服务。
 
 ```sh
-# cat .luarocks/upload_config.lua
+# cat .luarocks/config.lua
 rocks_servers = {
     "https://luarocks.cn"
 }
